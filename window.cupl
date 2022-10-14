@@ -1,0 +1,38 @@
+/* WINDOW.CUPL   22V10 "WINDOW" */
+PIN 1 = M2;
+PIN 2 = !ROMSEL;
+PIN 3 = CPU_A14;
+PIN 4 = CPU_A13;
+PIN 5 = CPU_A12;
+PIN 6 = MMU_A19;
+PIN 7 = !MMUSEL;
+PIN 8 = CPU_A2;
+PIN 9 = CPU_A1;
+PIN 10 = CPU_A0;
+PIN 11 = CPU_RW;
+PIN 14 = !PRG_WE;
+PIN 15 = !PRG_OE;
+PIN 16 = !PAGEL;
+PIN 17 = CM1_LE;
+PIN 18 = CM0_LE;
+PIN 19 = PM1_LE;
+PIN 20 = PM0_LE;
+PIN 21 = !RAM_CE;
+PIN 22 = !ROM_CE;
+PIN 23 = !IOSEL;
+
+/* IOSEL = (CPU_A[15:12] == 4'h4); */
+IOSEL = M2 & !ROM_SEL & CPU_A14 & !CPU_A13 & !CPU_A12;
+
+/* RAM_CE = ((CPU_A[15:12] >= 4'h6) &  MMU_A19) | ((CPU_A[15:12] == 4'h5) &  MMU_A19)); */
+/* RAM_CE = ((CPU_A[15:12] >= 4'h6) & !MMU_A19) | ((CPU_A[15:12] == 4'h5) & !MMU_A19)); */
+PAGEL   = M2 &  !ROMSEL & CPU_A14 & !CPU_A13 & CPU_A12;
+PAGEH   = ROMSEL # (CPU_A14 & CPU_A13);
+RAM_CE  =  MMU_A19 & (PAGEL # PAGEH);
+ROM_CE  = !MMU_A19 & (PAGEL # PAGEH);
+
+/* $42x0 - $42x3 MMU Registers (Write-Only) */
+PM0_LE  = MMUSEL & !CPU_A2 & !CPU_A1 & !CPU_A0;
+PM1_LE  = MMUSEL & !CPU_A2 & !CPU_A1 &  CPU_A0;
+CM0_LE  = MMUSEL & !CPU_A2 &  CPU_A1 & !CPU_A0;
+CM1_LE  = MMUSEL & !CPU_A2 &  CPU_A1 &  CPU_A0;
