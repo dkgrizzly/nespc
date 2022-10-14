@@ -1,0 +1,31 @@
+/* PRGMMU1.CUPL  22V10 "PRG MMU 1" */
+Pin 1 = CLK;
+Pin 2 = !ROMSEL;
+Pin 3 = CPU_A12;
+Pin 4 = CPU_A13;
+Pin 5 = CPU_A14;
+Pin 6 = CPU_D2;
+Pin 7 = CPU_D3;
+Pin 8 = CPU_D4;
+Pin 9 = CPU_D5;
+Pin 10 = CPU_D6;
+Pin 11 = CPU_D7;
+Pin 15 = MMU_A19;
+Pin 16 = MMU_A18;
+Pin 17 = MMU_A17;
+Pin 18 = MMU_A16;
+Pin 19 = MMU_A15;
+Pin 20 = MMU_A14;
+Pin 21 = MMU_A13;
+Pin 22 = MMU_A12;
+
+MMU_A12 = CPU_A12;
+MMU_A13 = CPU_A13;
+MMU_A14 = CPU_A14;
+MMU_A15.D = CPU_D3;
+MMU_A16.D = CPU_D4;
+MMU_A17.D = CPU_D5;
+MMU_A18.D = CPU_D6;
+MMU_A19.D = CPU_D7;
+MMU_*.CK = CLK;
+MMU_*.OE = ROMSEL # (CPU_A14 & CPU_A13);
