@@ -1,6 +1,17 @@
+Name PRGMMU1;
+Assembly 0001;
+Revision 1.0;
+PartNo PRGMMU1;
+Device G22V10;
+Company github.com dkgrizzly nespc;
+Designer David Kuder;
+Location U6;
+Date 14 October 2022;
+
 /* PRGMMU1.CUPL  22V10 "PRG MMU 1" */
+
 Pin 1 = CLK;
-Pin 2 = !ROMSEL;
+Pin 2 = ROMSEL;
 Pin 3 = CPU_A12;
 Pin 4 = CPU_A13;
 Pin 5 = CPU_A14;
@@ -27,5 +38,4 @@ MMU_A16.D = CPU_D4;
 MMU_A17.D = CPU_D5;
 MMU_A18.D = CPU_D6;
 MMU_A19.D = CPU_D7;
-MMU_*.CK = CLK;
-MMU_*.OE = ROMSEL # (CPU_A14 & CPU_A13);
+MMU_A12.OE = !ROMSEL # (M2 & CPU_A14 & CPU_A13);

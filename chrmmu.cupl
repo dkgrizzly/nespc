@@ -1,7 +1,17 @@
+Name CHRMMU;
+Assembly 0001;
+Revision 1.0;
+PartNo CHRMMU;
+Device G22V10;
+Company github.com dkgrizzly nespc;
+Designer David Kuder;
+Location U7-U8;
+Date 14 October 2022;
+
 /* CHRMMU.CUPL  22V10 "CHR MMU 0" / "CHR MMU 1" */
-/* Can this be replaced with a 74LS573? */
+
 Pin 1 = CLK;
-Pin 2 = !PAGE;
+Pin 2 = PAGE;
 Pin 3 = CPU_D0;
 Pin 4 = CPU_D1;
 Pin 5 = CPU_D2;
@@ -20,12 +30,18 @@ Pin 21 = MMU_A13;
 Pin 22 = MMU_A12;
 
 MMU_A12.D = CPU_D0
+MMU_A12.OE = !PAGE
 MMU_A13.D = CPU_D1
+MMU_A13.OE = !PAGE
 MMU_A14.D = CPU_D2
+MMU_A14.OE = !PAGE
 MMU_A15.D = CPU_D3
+MMU_A15.OE = !PAGE
 MMU_A16.D = CPU_D4
+MMU_A16.OE = !PAGE
 MMU_A17.D = CPU_D5
+MMU_A17.OE = !PAGE
 MMU_A18.D = CPU_D6
+MMU_A18.OE = !PAGE
 MMU_A19.D = CPU_D7
-MMU_*.CK = CLK;
-MMU_*.OE = PAGE
+MMU_A19.OE = !PAGE

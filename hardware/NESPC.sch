@@ -1137,10 +1137,10 @@ Wire Wire Line
 	9750 4500 9000 4500
 Text Label 9000 4500 0    50   ~ 0
 PMU_A15
-Text Label 9000 2700 0    50   ~ 0
+Text Label 8500 3700 2    50   ~ 0
 PPU_A12
 Wire Wire Line
-	9000 2700 9750 2700
+	8500 3700 7750 3700
 Wire Wire Line
 	10250 4700 11000 4700
 Text Label 11000 4700 2    50   ~ 0
@@ -1296,14 +1296,6 @@ Wire Wire Line
 	2750 3500 3500 3500
 Text Label 3500 3500 2    50   ~ 0
 MMU_A19
-Wire Wire Line
-	2750 2700 3500 2700
-Text Label 3500 2700 2    50   ~ 0
-+5V
-Wire Wire Line
-	2750 3600 3500 3600
-Text Label 3500 3600 2    50   ~ 0
-PM0_LE
 $Comp
 L Connector_Generic:Conn_02x12_Counter_Clockwise U7
 U 1 1 658F26C2
@@ -1347,18 +1339,6 @@ Text Label 6500 3200 0    50   ~ 0
 CPU_D4
 Text Label 6500 3100 0    50   ~ 0
 CPU_D3
-Wire Wire Line
-	6500 3600 7250 3600
-Text Label 6500 3600 0    50   ~ 0
-GND
-Wire Wire Line
-	7750 2700 8500 2700
-Text Label 8500 2700 2    50   ~ 0
-+5V
-Wire Wire Line
-	7750 3600 8500 3600
-Text Label 8500 3600 2    50   ~ 0
-CM0_LE
 $Comp
 L Connector_Generic:Conn_02x12_Counter_Clockwise U8
 U 1 1 65933E71
@@ -1406,18 +1386,10 @@ Wire Wire Line
 	9000 3600 9750 3600
 Text Label 9000 3600 0    50   ~ 0
 GND
-Wire Wire Line
-	10250 2700 11000 2700
-Text Label 11000 2700 2    50   ~ 0
-+5V
-Wire Wire Line
-	10250 3600 11000 3600
-Text Label 11000 3600 2    50   ~ 0
-CM1_LE
-Text Label 6500 2700 0    50   ~ 0
+Text Label 11000 3700 2    50   ~ 0
 PPU_~A12
 Wire Wire Line
-	6500 2700 7250 2700
+	11000 3700 10250 3700
 Wire Wire Line
 	10250 3400 11000 3400
 Text Label 11000 3400 2    50   ~ 0
@@ -1486,13 +1458,9 @@ Wire Wire Line
 Text Label 3500 1800 2    50   ~ 0
 ~PAGEL
 Wire Wire Line
-	2250 2700 1500 2700
-Text Label 1500 2700 0    50   ~ 0
+	2750 3700 3500 3700
+Text Label 3500 3700 2    50   ~ 0
 ~PAGEL
-Wire Wire Line
-	1500 3600 2250 3600
-Text Label 1500 3600 0    50   ~ 0
-GND
 Wire Wire Line
 	6500 3700 7250 3700
 Text Label 6500 3700 0    50   ~ 0
@@ -1500,10 +1468,6 @@ GND
 Wire Wire Line
 	9000 3700 9750 3700
 Text Label 9000 3700 0    50   ~ 0
-GND
-Wire Wire Line
-	8500 3700 7750 3700
-Text Label 8500 3700 2    50   ~ 0
 GND
 Wire Wire Line
 	11000 5300 10250 5300
@@ -1552,10 +1516,6 @@ Wire Wire Line
 	2750 2600 3500 2600
 Text Label 3500 2600 2    50   ~ 0
 +5V
-Text Label 3500 3700 2    50   ~ 0
-GND
-Wire Wire Line
-	3500 3700 2750 3700
 $Comp
 L Connector_Generic:Conn_02x12_Counter_Clockwise U6
 U 1 1 686129B4
@@ -1615,10 +1575,6 @@ Text Label 4000 2900 0    50   ~ 0
 CPU_A13
 Text Label 4000 3000 0    50   ~ 0
 CPU_A14
-Wire Wire Line
-	4000 2700 4750 2700
-Text Label 4000 2700 0    50   ~ 0
-~ROMSEL
 Wire Wire Line
 	4000 6600 4750 6600
 Wire Wire Line
@@ -2126,14 +2082,6 @@ F 3 "~" H 9950 6950 50  0001 C CNN
 	1    9950 6950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11000 3700 10250 3700
-Text Label 11000 3700 2    50   ~ 0
-GND
-Wire Wire Line
-	6000 3700 5250 3700
-Text Label 6000 3700 2    50   ~ 0
-GND
 Text Label 6000 3500 2    50   ~ 0
 MMU_A19
 Wire Wire Line
@@ -2166,8 +2114,6 @@ Text Label 6000 3400 2    50   ~ 0
 MMU_A18
 Wire Wire Line
 	5250 3400 6000 3400
-NoConn ~ 5250 2700
-NoConn ~ 5250 3600
 Wire Wire Line
 	9000 6600 9750 6600
 Text Label 9000 6600 0    50   ~ 0
@@ -2176,4 +2122,64 @@ Wire Wire Line
 	2250 1700 1500 1700
 Text Label 1500 1700 0    50   ~ 0
 CPU_A2
+Text Label 4000 2700 0    50   ~ 0
+~ROMSEL
+Wire Wire Line
+	4000 2700 4750 2700
+Text Label 1500 3600 0    50   ~ 0
+GND
+Wire Wire Line
+	1500 3600 2250 3600
+Text Label 1500 2700 0    50   ~ 0
+GND
+Wire Wire Line
+	1500 2700 2250 2700
+Text Label 6000 3700 2    50   ~ 0
+GND
+Wire Wire Line
+	6000 3700 5250 3700
+Wire Wire Line
+	6000 2700 5250 2700
+Text Label 6000 2700 2    50   ~ 0
+M2
+Text Label 3500 2700 2    50   ~ 0
+GND
+Wire Wire Line
+	3500 2700 2750 2700
+Text Label 6000 3600 2    50   ~ 0
+GND
+Wire Wire Line
+	6000 3600 5250 3600
+Text Label 3500 3600 2    50   ~ 0
+GND
+Wire Wire Line
+	3500 3600 2750 3600
+Text Label 6500 3600 0    50   ~ 0
+GND
+Wire Wire Line
+	6500 3600 7250 3600
+Text Label 6500 2700 0    50   ~ 0
+GND
+Wire Wire Line
+	6500 2700 7250 2700
+Text Label 9000 2700 0    50   ~ 0
+GND
+Wire Wire Line
+	9000 2700 9750 2700
+Text Label 11000 2700 2    50   ~ 0
+GND
+Wire Wire Line
+	11000 2700 10250 2700
+Text Label 11000 3600 2    50   ~ 0
+GND
+Wire Wire Line
+	11000 3600 10250 3600
+Text Label 8500 3600 2    50   ~ 0
+GND
+Wire Wire Line
+	8500 3600 7750 3600
+Text Label 8500 2700 2    50   ~ 0
+GND
+Wire Wire Line
+	8500 2700 7750 2700
 $EndSCHEMATC

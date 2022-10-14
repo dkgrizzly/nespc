@@ -1,5 +1,15 @@
+Name PRGMMU0;
+Assembly 0001;
+Revision 1.0;
+PartNo PRGMMU0;
+Device G22V10;
+Company github.com dkgrizzly nespc;
+Designer David Kuder;
+Location U5;
+Date 14 October 2022;
+
 /* PRGMMU0.CUPL  22V10 "PRG MMU 0" */
-/* Can this be replaced with a 74LS573 ? */
+
 Pin 1 = CLK;
 Pin 2 = !PAGE;
 Pin 3 = CPU_D0;
