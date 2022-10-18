@@ -1,4 +1,6 @@
 
 *.cdb
 *.hdb
+atf1508/incremental_db/*
 atf1508/db/*
+atf1508/output_files/*
