@@ -4,3 +4,10 @@
 atf1508/incremental_db/*
 atf1508/db/*
 atf1508/output_files/*
+*.bak
+*.sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.bck
+*.sch-bak
+atf1508/nespc.qws
