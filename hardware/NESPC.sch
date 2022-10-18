@@ -951,30 +951,6 @@ F 3 "~" H 8450 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 7350 11400 7350
-Text Label 11400 7350 0    50   ~ 0
-FDC_TC
-Wire Wire Line
-	12150 7750 11400 7750
-Text Label 11400 7750 0    50   ~ 0
-FLP_DRVDEN0
-Wire Wire Line
-	12150 7850 11400 7850
-Text Label 11400 7850 0    50   ~ 0
-FLP_DRVDEN1
-Wire Wire Line
-	12700 7900 13450 7900
-Text Label 13450 7900 2    50   ~ 0
-FLP_MEDIA_ID0
-Wire Wire Line
-	12700 7800 13450 7800
-Text Label 13450 7800 2    50   ~ 0
-FLP_MEDIA_ID1
-Wire Wire Line
-	12150 7250 11400 7250
-Text Label 11400 7250 0    50   ~ 0
-FDC_IRQ
-Wire Wire Line
 	6000 3500 5250 3500
 Wire Wire Line
 	6000 3300 5250 3300
@@ -1600,9 +1576,9 @@ CPU_A6
 Text Label 9300 7450 2    50   ~ 0
 CPU_A7
 $Sheet
-S 21600 700  11000 9900
+S 14500 5000 1150 400 
 U 75E32237
-F0 "FDC" 50
+F0 "Floppy Disk Controller" 50
 F1 "FDC.sch" 50
 $EndSheet
 Wire Wire Line
