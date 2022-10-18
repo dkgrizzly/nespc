@@ -1,0 +1,58 @@
+
+#PINLOCK_BEGIN
+
+#Sun Oct 16 22:00:04 2022
+
+NET "CPU_A<0>"       LOC =  "S:PIN13";
+NET "CPU_A<1>"       LOC =  "S:PIN62";
+NET "CPU_A<2>"       LOC =  "S:PIN1";
+NET "CPU_A<3>"       LOC =  "S:PIN63";
+NET "CPU_A<4>"       LOC =  "S:PIN64";
+NET "CPU_A<5>"       LOC =  "S:PIN6";
+NET "CPU_A<6>"       LOC =  "S:PIN17";
+NET "CPU_D<0>"       LOC =  "S:PIN4";
+NET "CPU_D<1>"       LOC =  "S:PIN59";
+NET "CPU_D<2>"       LOC =  "S:PIN2";
+NET "CPU_D<3>"       LOC =  "S:PIN5";
+NET "CPU_D<4>"       LOC =  "S:PIN61";
+NET "CPU_D<5>"       LOC =  "S:PIN7";
+NET "CPU_D<6>"       LOC =  "S:PIN16";
+NET "CPU_D<7>"       LOC =  "S:PIN33";
+NET "CPU_RW"         LOC =  "S:PIN58";
+NET "M2"             LOC =  "S:PIN36";
+NET "PPU_A12"        LOC =  "S:PIN27";
+NET "PPU_A13"        LOC =  "S:PIN60";
+NET "nROMSEL"        LOC =  "S:PIN20";
+NET "SYSCLK"         LOC =  "S:PIN15";
+NET "CHR_ROM_nCE"    LOC =  "S:PIN43";
+NET "CHR_RAM_nCE"    LOC =  "S:PIN46";
+NET "CI_RAM_nCE"     LOC =  "S:PIN24";
+NET "CPU_nRD"        LOC =  "S:PIN56";
+NET "CPU_nWR"        LOC =  "S:PIN57";
+NET "FDC_nCE"        LOC =  "S:PIN22";
+NET "FDC_nRST"       LOC =  "S:PIN31";
+NET "MMU_A<0>"       LOC =  "S:PIN18";
+NET "MMU_A<1>"       LOC =  "S:PIN11";
+NET "MMU_A<2>"       LOC =  "S:PIN10";
+NET "MMU_A<3>"       LOC =  "S:PIN9";
+NET "MMU_A<4>"       LOC =  "S:PIN12";
+NET "MMU_A<5>"       LOC =  "S:PIN8";
+NET "MMU_A<6>"       LOC =  "S:PIN19";
+NET "PMU_A<0>"       LOC =  "S:PIN47";
+NET "PMU_A<1>"       LOC =  "S:PIN44";
+NET "PMU_A<2>"       LOC =  "S:PIN49";
+NET "PMU_A<3>"       LOC =  "S:PIN45";
+NET "PMU_A<4>"       LOC =  "S:PIN51";
+NET "PMU_A<5>"       LOC =  "S:PIN48";
+NET "PMU_A<6>"       LOC =  "S:PIN23";
+NET "PRG_RAM_nCE"    LOC =  "S:PIN52";
+NET "PRG_ROM_nCE"    LOC =  "S:PIN50";
+NET "SEL<0>"         LOC =  "S:PIN34";
+NET "SEL<1>"         LOC =  "S:PIN25";
+NET "SEL<2>"         LOC =  "S:PIN39";
+NET "SEL<3>"         LOC =  "S:PIN40";
+NET "SEL<4>"         LOC =  "S:PIN35";
+NET "SEL<5>"         LOC =  "S:PIN42";
+NET "SEL<6>"         LOC =  "S:PIN38";
+NET "SEL<7>"         LOC =  "S:PIN32";
+#PINLOCK_END
