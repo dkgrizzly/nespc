@@ -71,7 +71,7 @@ Text Label 1900 2550 0    50   ~ 0
 Wire Wire Line
 	2650 2650 1900 2650
 Text Label 1900 2650 0    50   ~ 0
-FDC_IRQ
+~IRQ
 Wire Wire Line
 	2650 2750 1900 2750
 Wire Wire Line
@@ -351,4 +351,248 @@ Wire Wire Line
 	4150 3050 4900 3050
 Text Label 4150 3050 0    50   ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 76935B71
+P 8100 2350
+AR Path="/76935B71" Ref="J?"  Part="1" 
+AR Path="/75E32237/76935B71" Ref="J1"  Part="1" 
+F 0 "J1" H 8150 3467 50  0000 C CNN
+F 1 "EXPANSION" H 8150 3376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8100 2350 50  0001 C CNN
+F 3 "~" H 8100 2350 50  0001 C CNN
+	1    8100 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2650 7150 2650
+Wire Wire Line
+	7900 2750 7150 2750
+Text Label 7150 2650 0    50   ~ 0
+CPU_A2
+Text Label 7150 2750 0    50   ~ 0
+CPU_A3
+Wire Wire Line
+	9150 2450 8400 2450
+Wire Wire Line
+	9150 2550 8400 2550
+Wire Wire Line
+	9150 2650 8400 2650
+Wire Wire Line
+	9150 2750 8400 2750
+Wire Wire Line
+	9150 2850 8400 2850
+Wire Wire Line
+	9150 2950 8400 2950
+Wire Wire Line
+	9150 3050 8400 3050
+Wire Wire Line
+	9150 3150 8400 3150
+Text Label 9150 3150 2    50   ~ 0
+CPU_D7
+Text Label 9150 3050 2    50   ~ 0
+CPU_D6
+Text Label 9150 2950 2    50   ~ 0
+CPU_D5
+Text Label 9150 2850 2    50   ~ 0
+CPU_D4
+Text Label 9150 2750 2    50   ~ 0
+CPU_D3
+Text Label 9150 2650 2    50   ~ 0
+CPU_D2
+Text Label 9150 2550 2    50   ~ 0
+CPU_D1
+Text Label 9150 2450 2    50   ~ 0
+CPU_D0
+Wire Wire Line
+	7900 1450 7150 1450
+Text Label 7150 1450 0    50   ~ 0
++5V
+Wire Wire Line
+	9150 1450 8400 1450
+Text Label 9150 1450 2    50   ~ 0
++5V
+Wire Wire Line
+	7150 2050 7900 2050
+Text Label 7150 2050 0    50   ~ 0
+GND
+Wire Wire Line
+	7900 1550 7150 1550
+Text Label 7150 1550 0    50   ~ 0
+GND
+Wire Wire Line
+	7150 1850 7900 1850
+Text Label 7150 1850 0    50   ~ 0
+~IOSEL0
+Wire Wire Line
+	9150 1950 8400 1950
+Text Label 9150 1950 2    50   ~ 0
+~IOSEL1
+Wire Wire Line
+	7150 2250 7900 2250
+Text Label 7150 2250 0    50   ~ 0
+~IOSEL2
+Wire Wire Line
+	9150 2050 8400 2050
+Text Label 9150 2050 2    50   ~ 0
+~IOSEL3
+Wire Wire Line
+	9150 1850 8400 1850
+Text Label 9150 1850 2    50   ~ 0
+~DEVSEL0
+Wire Wire Line
+	7150 1950 7900 1950
+Text Label 7150 1950 0    50   ~ 0
+~DEVSEL1
+Wire Wire Line
+	9150 2150 8400 2150
+Text Label 9150 2150 2    50   ~ 0
+~DEVSEL2
+Wire Wire Line
+	7150 2150 7900 2150
+Text Label 7150 2150 0    50   ~ 0
+~DEVSEL3
+Wire Wire Line
+	9150 1650 8400 1650
+Wire Wire Line
+	7150 1650 7900 1650
+Text Label 7150 1650 0    50   ~ 0
+SYSCLK
+Text Label 9150 1650 2    50   ~ 0
+M2
+Wire Wire Line
+	9150 1550 8400 1550
+Text Label 9150 1550 2    50   ~ 0
+GND
+Text Label 7150 2950 0    50   ~ 0
+CPU_A5
+Text Label 7150 2850 0    50   ~ 0
+CPU_A4
+Wire Wire Line
+	7900 2850 7150 2850
+Wire Wire Line
+	7900 3050 7150 3050
+Wire Wire Line
+	7900 2950 7150 2950
+Wire Wire Line
+	7900 3150 7150 3150
+Text Label 7150 3050 0    50   ~ 0
+CPU_A6
+Text Label 7150 3150 0    50   ~ 0
+CPU_A7
+Wire Wire Line
+	7900 2450 7150 2450
+Wire Wire Line
+	7900 2550 7150 2550
+Text Label 7150 2450 0    50   ~ 0
+CPU_A0
+Text Label 7150 2550 0    50   ~ 0
+CPU_A1
+Wire Wire Line
+	7900 2350 7150 2350
+Text Label 7150 2350 0    50   ~ 0
+~PRG_OE
+Wire Wire Line
+	8400 2350 9150 2350
+Text Label 9150 2350 2    50   ~ 0
+~PRG_WE
+Wire Wire Line
+	9150 2250 8400 2250
+Text Label 9150 2250 2    50   ~ 0
+GND
+Wire Wire Line
+	9150 3250 8400 3250
+Text Label 9150 3250 2    50   ~ 0
+GND
+Wire Wire Line
+	9150 3350 8400 3350
+Text Label 9150 3350 2    50   ~ 0
+GND
+Wire Wire Line
+	7150 3250 7900 3250
+Text Label 7150 3250 0    50   ~ 0
+GND
+Wire Wire Line
+	7900 3350 7150 3350
+Text Label 7150 3350 0    50   ~ 0
+~IRQ
+Wire Wire Line
+	8400 1750 9150 1750
+Text Label 9150 1750 2    50   ~ 0
+FDC_RST
+Wire Wire Line
+	7150 1750 7900 1750
+Text Label 7150 1750 0    50   ~ 0
+~FDCSEL
+$Comp
+L Oscillator:CXO_DIP8 X1
+U 1 1 76948232
+P 4850 4650
+F 0 "X1" H 5194 4696 50  0000 L CNN
+F 1 "24MHz" H 5194 4605 50  0000 L CNN
+F 2 "Oscillator:Oscillator_DIP-8" H 5300 4300 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 4750 4650 50  0001 C CNN
+	1    4850 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscillator:CXO_DIP14 X2
+U 1 1 76948BBB
+P 8000 4650
+F 0 "X2" H 8344 4696 50  0001 L CNN
+F 1 "CXO_DIP14" H 8344 4605 50  0001 L CNN
+F 2 "Oscillator:Oscillator_DIP-14" H 8450 4300 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 7900 4650 50  0001 C CNN
+	1    8000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5700 8000 4950
+Text Label 8000 5700 1    50   ~ 0
+GND
+Wire Wire Line
+	4850 5700 4850 4950
+Text Label 4850 5700 1    50   ~ 0
+GND
+Wire Wire Line
+	4850 4350 4850 3600
+Text Label 4850 3600 3    50   ~ 0
++5V
+Wire Wire Line
+	8000 4350 8000 3600
+Text Label 8000 3600 3    50   ~ 0
++5V
+Wire Wire Line
+	5900 4650 5150 4650
+Text Label 5900 4650 2    50   ~ 0
+CLK24
+Wire Wire Line
+	9050 4650 8300 4650
+Text Label 9050 4650 2    50   ~ 0
+CLK24
+$Comp
+L Device:CP1 C?
+U 1 1 76CC0D72
+P 2950 5400
+AR Path="/76CC0D72" Ref="C?"  Part="1" 
+AR Path="/75E32237/76CC0D72" Ref="C1"  Part="1" 
+F 0 "C1" H 3065 5446 50  0000 L CNN
+F 1 "0.1uF" H 3065 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2950 5400 50  0001 C CNN
+F 3 "~" H 2950 5400 50  0001 C CNN
+	1    2950 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5250 2950 4950
+Wire Wire Line
+	2950 5850 2950 5550
+Wire Wire Line
+	2200 4950 2950 4950
+Text Label 2200 4950 0    50   ~ 0
++5V
+Text Label 2200 5850 0    50   ~ 0
+GND
+Wire Wire Line
+	2200 5850 2950 5850
 $EndSCHEMATC

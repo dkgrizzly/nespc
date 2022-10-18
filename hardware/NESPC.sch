@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x36_Top_Bottom J1
+L Connector_Generic:Conn_02x36_Top_Bottom J0
 U 1 1 6348C45D
 P 15200 2550
-F 0 "J1" H 15250 4467 50  0000 C CNN
+F 0 "J0" H 15250 4467 50  0000 C CNN
 F 1 "NESCART" H 15250 4376 50  0000 C CNN
 F 2 "nes:NES_CART" H 15200 2550 50  0001 C CNN
 F 3 "~" H 15200 2550 50  0001 C CNN
@@ -479,10 +479,6 @@ SYSCLK
 Text Label 16000 7300 2    50   ~ 0
 M2
 Wire Wire Line
-	14000 7400 14750 7400
-Text Label 14000 7400 0    50   ~ 0
-GND
-Wire Wire Line
 	16000 7200 15250 7200
 Text Label 16000 7200 2    50   ~ 0
 GND
@@ -579,8 +575,8 @@ PPU_D5
 Text Label 9500 3800 2    50   ~ 0
 PPU_D4
 Wire Wire Line
-	7000 8550 6250 8550
-Text Label 6250 8550 0    50   ~ 0
+	7000 8350 6250 8350
+Text Label 6250 8350 0    50   ~ 0
 CIRAM_A10
 Wire Wire Line
 	8750 2400 9500 2400
@@ -895,10 +891,6 @@ Text Label 16000 8000 2    50   ~ 0
 Wire Wire Line
 	16000 7900 15250 7900
 Text Label 16000 7900 2    50   ~ 0
-GND
-Wire Wire Line
-	16000 7400 15250 7400
-Text Label 16000 7400 2    50   ~ 0
 GND
 Wire Wire Line
 	16000 8900 15250 8900
@@ -1255,8 +1247,8 @@ Wire Wire Line
 Text Label 6250 8650 0    50   ~ 0
 CIRAM_~CE
 Wire Wire Line
-	7000 8350 6250 8350
-Text Label 6250 8350 0    50   ~ 0
+	7000 8550 6250 8550
+Text Label 6250 8550 0    50   ~ 0
 FDC_RST
 Wire Wire Line
 	9300 7350 8550 7350
@@ -1379,17 +1371,6 @@ TCK
 Text Label 9300 7250 2    50   ~ 0
 TDO
 $Comp
-L Device:CP1 C1
-U 1 1 6ED7805E
-P 2200 6500
-F 0 "C1" H 2315 6546 50  0000 L CNN
-F 1 "0.1uF" H 2315 6455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2200 6500 50  0001 C CNN
-F 3 "~" H 2200 6500 50  0001 C CNN
-	1    2200 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C2
 U 1 1 6EDE0374
 P 2650 6500
@@ -1434,10 +1415,6 @@ F 3 "~" H 4000 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 6350 2200 6050
-Wire Wire Line
-	2200 6050 2650 6050
-Wire Wire Line
 	4000 6050 4000 6350
 Wire Wire Line
 	3550 6350 3550 6050
@@ -1459,12 +1436,8 @@ Wire Wire Line
 Wire Wire Line
 	4000 6950 3550 6950
 Wire Wire Line
-	2200 6950 2200 6650
-Wire Wire Line
 	2650 6650 2650 6950
 Connection ~ 2650 6950
-Wire Wire Line
-	2650 6950 2200 6950
 Wire Wire Line
 	3100 6650 3100 6950
 Connection ~ 3100 6950
@@ -1475,16 +1448,10 @@ Wire Wire Line
 Connection ~ 3550 6950
 Wire Wire Line
 	3550 6950 3100 6950
-Wire Wire Line
-	1450 6050 2200 6050
 Text Label 1450 6050 0    50   ~ 0
 +5V
 Text Label 1450 6950 0    50   ~ 0
 GND
-Wire Wire Line
-	1450 6950 2200 6950
-Connection ~ 2200 6950
-Connection ~ 2200 6050
 $Comp
 L Device:CP1 C6
 U 1 1 6F15B013
@@ -1638,4 +1605,16 @@ U 75E32237
 F0 "FDC" 50
 F1 "FDC.sch" 50
 $EndSheet
+Wire Wire Line
+	14000 7400 14750 7400
+Text Label 14000 7400 0    50   ~ 0
+~FDCSEL
+Wire Wire Line
+	15250 7400 16000 7400
+Text Label 16000 7400 2    50   ~ 0
+FDC_RST
+Wire Wire Line
+	1450 6050 2650 6050
+Wire Wire Line
+	1450 6950 2650 6950
 $EndSCHEMATC
