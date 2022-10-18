@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name atf1508)(type Legacy)(uri ${KIPRJMOD}/atf1508.lib)(options "")(descr ""))
+)

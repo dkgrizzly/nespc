@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "NES PC"
 Date "2022-10-14"
 Rev "1"
@@ -16,320 +16,309 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x36_Top_Bottom J1
 U 1 1 6348C45D
-P 14950 2800
-F 0 "J1" H 15000 4717 50  0000 C CNN
-F 1 "NESCART" H 15000 4626 50  0000 C CNN
-F 2 "" H 14950 2800 50  0001 C CNN
-F 3 "~" H 14950 2800 50  0001 C CNN
-	1    14950 2800
+P 15200 2550
+F 0 "J1" H 15250 4467 50  0000 C CNN
+F 1 "NESCART" H 15250 4376 50  0000 C CNN
+F 2 "nes:NES_CART" H 15200 2550 50  0001 C CNN
+F 3 "~" H 15200 2550 50  0001 C CNN
+	1    15200 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16000 4600 15250 4600
+	16250 4350 15500 4350
 Wire Wire Line
-	16000 4500 15250 4500
+	16250 4250 15500 4250
 Wire Wire Line
-	16000 4400 15250 4400
+	16250 4150 15500 4150
 Wire Wire Line
-	16000 4300 15250 4300
+	16250 4050 15500 4050
 Wire Wire Line
-	16000 4200 15250 4200
+	16250 3950 15500 3950
 Wire Wire Line
-	16000 4100 15250 4100
+	16250 3850 15500 3850
 Wire Wire Line
-	16000 4000 15250 4000
+	16250 3750 15500 3750
 Wire Wire Line
-	16000 3900 15250 3900
+	16250 3650 15500 3650
 Wire Wire Line
-	16000 3800 15250 3800
+	16250 3550 15500 3550
 Wire Wire Line
-	16000 3700 15250 3700
+	16250 3450 15500 3450
 Wire Wire Line
-	16000 3600 15250 3600
+	16250 3350 15500 3350
 Wire Wire Line
-	16000 3500 15250 3500
+	16250 3250 15500 3250
 Wire Wire Line
-	16000 3400 15250 3400
+	16250 3150 15500 3150
 Wire Wire Line
-	16000 3300 15250 3300
+	16250 3050 15500 3050
 Wire Wire Line
-	16000 3200 15250 3200
+	16250 2950 15500 2950
 Wire Wire Line
-	16000 3100 15250 3100
+	16250 2850 15500 2850
 Wire Wire Line
-	16000 3000 15250 3000
+	16250 2750 15500 2750
 Wire Wire Line
-	16000 2900 15250 2900
+	16250 2650 15500 2650
 Wire Wire Line
-	16000 2800 15250 2800
+	16250 2550 15500 2550
 Wire Wire Line
-	16000 2700 15250 2700
+	16250 2450 15500 2450
 Wire Wire Line
-	16000 2600 15250 2600
+	16250 2350 15500 2350
 Wire Wire Line
-	16000 2500 15250 2500
+	16250 2250 15500 2250
 Wire Wire Line
-	16000 2400 15250 2400
+	16250 2150 15500 2150
 Wire Wire Line
-	16000 2300 15250 2300
+	16250 2050 15500 2050
 Wire Wire Line
-	16000 2200 15250 2200
+	16250 1950 15500 1950
 Wire Wire Line
-	16000 2100 15250 2100
+	16250 1850 15500 1850
 Wire Wire Line
-	16000 2000 15250 2000
+	16250 1750 15500 1750
 Wire Wire Line
-	16000 1900 15250 1900
+	16250 1650 15500 1650
 Wire Wire Line
-	16000 1800 15250 1800
+	16250 1550 15500 1550
 Wire Wire Line
-	16000 1700 15250 1700
+	16250 1450 15500 1450
 Wire Wire Line
-	16000 1600 15250 1600
+	16250 1350 15500 1350
 Wire Wire Line
-	16000 1500 15250 1500
+	16250 1250 15500 1250
 Wire Wire Line
-	16000 1400 15250 1400
+	16250 1150 15500 1150
 Wire Wire Line
-	16000 1300 15250 1300
+	16250 1050 15500 1050
 Wire Wire Line
-	16000 1200 15250 1200
+	16250 950  15500 950 
 Wire Wire Line
-	14750 1800 14000 1800
+	15000 1550 14250 1550
 Wire Wire Line
-	14750 1700 14000 1700
+	15000 1450 14250 1450
 Wire Wire Line
-	14750 1600 14000 1600
+	15000 1350 14250 1350
 Wire Wire Line
-	14750 1500 14000 1500
+	15000 1250 14250 1250
 Wire Wire Line
-	14750 1400 14000 1400
+	15000 1150 14250 1150
 Wire Wire Line
-	14750 1300 14000 1300
+	15000 1050 14250 1050
 Wire Wire Line
-	14750 1200 14000 1200
+	15000 950  14250 950 
 Wire Wire Line
-	14750 2500 14000 2500
+	15000 2250 14250 2250
 Wire Wire Line
-	14750 2400 14000 2400
+	15000 2150 14250 2150
 Wire Wire Line
-	14750 2300 14000 2300
+	15000 2050 14250 2050
 Wire Wire Line
-	14750 2200 14000 2200
+	15000 1950 14250 1950
 Wire Wire Line
-	14750 2100 14000 2100
+	15000 1850 14250 1850
 Wire Wire Line
-	14750 2000 14000 2000
+	15000 1750 14250 1750
 Wire Wire Line
-	14750 1900 14000 1900
+	15000 1650 14250 1650
 Wire Wire Line
-	14750 3200 14000 3200
+	15000 2950 14250 2950
 Wire Wire Line
-	14750 3100 14000 3100
+	15000 2850 14250 2850
 Wire Wire Line
-	14750 3000 14000 3000
+	15000 2750 14250 2750
 Wire Wire Line
-	14750 2900 14000 2900
+	15000 2650 14250 2650
 Wire Wire Line
-	14750 2800 14000 2800
+	15000 2550 14250 2550
 Wire Wire Line
-	14750 2700 14000 2700
+	15000 2450 14250 2450
 Wire Wire Line
-	14750 2600 14000 2600
+	15000 2350 14250 2350
 Wire Wire Line
-	14750 3900 14000 3900
+	15000 3650 14250 3650
 Wire Wire Line
-	14750 3800 14000 3800
+	15000 3550 14250 3550
 Wire Wire Line
-	14750 3700 14000 3700
+	15000 3450 14250 3450
 Wire Wire Line
-	14750 3600 14000 3600
+	15000 3350 14250 3350
 Wire Wire Line
-	14750 3500 14000 3500
+	15000 3250 14250 3250
 Wire Wire Line
-	14750 3400 14000 3400
+	15000 3150 14250 3150
 Wire Wire Line
-	14750 3300 14000 3300
+	15000 3050 14250 3050
 Wire Wire Line
-	14750 4600 14000 4600
+	15000 4350 14250 4350
 Wire Wire Line
-	14750 4500 14000 4500
+	15000 4250 14250 4250
 Wire Wire Line
-	14750 4400 14000 4400
+	15000 4150 14250 4150
 Wire Wire Line
-	14750 4300 14000 4300
+	15000 4050 14250 4050
 Wire Wire Line
-	14750 4200 14000 4200
+	15000 3950 14250 3950
 Wire Wire Line
-	14750 4100 14000 4100
+	15000 3850 14250 3850
 Wire Wire Line
-	14750 4000 14000 4000
+	15000 3750 14250 3750
 Wire Wire Line
-	14750 1100 14000 1100
+	15000 850  14250 850 
 Wire Wire Line
-	16000 1100 15250 1100
-Text Label 14000 1100 0    50   ~ 0
+	16250 850  15500 850 
+Text Label 14250 850  0    50   ~ 0
 GND
-Text Label 14000 4600 0    50   ~ 0
+Text Label 14250 4350 0    50   ~ 0
 +5V
-Text Label 14000 4500 0    50   ~ 0
+Text Label 14250 4250 0    50   ~ 0
 CIC_MISO
-Text Label 14000 4400 0    50   ~ 0
+Text Label 14250 4150 0    50   ~ 0
 CIC_MOSI
-Text Label 14000 4300 0    50   ~ 0
+Text Label 14250 4050 0    50   ~ 0
 PPU_D3
-Text Label 14000 4200 0    50   ~ 0
+Text Label 14250 3950 0    50   ~ 0
 PPU_D2
-Text Label 14000 4100 0    50   ~ 0
+Text Label 14250 3850 0    50   ~ 0
 PPU_D1
-Text Label 14000 4000 0    50   ~ 0
+Text Label 14250 3750 0    50   ~ 0
 PPU_D0
-Text Label 14000 3900 0    50   ~ 0
+Text Label 14250 3650 0    50   ~ 0
 PPU_A0
-Text Label 14000 3800 0    50   ~ 0
+Text Label 14250 3550 0    50   ~ 0
 PPU_A1
-Text Label 14000 3700 0    50   ~ 0
+Text Label 14250 3450 0    50   ~ 0
 PPU_A2
-Text Label 14000 3600 0    50   ~ 0
+Text Label 14250 3350 0    50   ~ 0
 PPU_A3
-Text Label 14000 3500 0    50   ~ 0
+Text Label 14250 3250 0    50   ~ 0
 PPU_A4
-Text Label 14000 3400 0    50   ~ 0
+Text Label 14250 3150 0    50   ~ 0
 PPU_A5
-Text Label 14000 3300 0    50   ~ 0
+Text Label 14250 3050 0    50   ~ 0
 PPU_A6
-Text Label 14000 3200 0    50   ~ 0
+Text Label 14250 2950 0    50   ~ 0
 CIRAM_A10
-Text Label 14000 3100 0    50   ~ 0
+Text Label 14250 2850 0    50   ~ 0
 PPU_~RD
-Text Label 14000 3000 0    50   ~ 0
+Text Label 14250 2750 0    50   ~ 0
 EXP_4
-Text Label 14000 2900 0    50   ~ 0
+Text Label 14250 2650 0    50   ~ 0
 EXP_3
-Text Label 14000 2800 0    50   ~ 0
+Text Label 14250 2550 0    50   ~ 0
 EXP_2
-Text Label 14000 2700 0    50   ~ 0
+Text Label 14250 2450 0    50   ~ 0
 EXP_1
-Text Label 14000 2600 0    50   ~ 0
+Text Label 14250 2350 0    50   ~ 0
 EXP_0
-Text Label 14000 2500 0    50   ~ 0
+Text Label 14250 2250 0    50   ~ 0
 ~IRQ
-Text Label 14000 2400 0    50   ~ 0
+Text Label 14250 2150 0    50   ~ 0
 CPU_R~W
-Text Label 14000 2300 0    50   ~ 0
+Text Label 14250 2050 0    50   ~ 0
 CPU_A0
-Text Label 14000 2200 0    50   ~ 0
+Text Label 14250 1950 0    50   ~ 0
 CPU_A1
-Text Label 14000 2100 0    50   ~ 0
+Text Label 14250 1850 0    50   ~ 0
 CPU_A2
-Text Label 14000 2000 0    50   ~ 0
+Text Label 14250 1750 0    50   ~ 0
 CPU_A3
-Text Label 14000 1900 0    50   ~ 0
+Text Label 14250 1650 0    50   ~ 0
 CPU_A4
-Text Label 14000 1800 0    50   ~ 0
+Text Label 14250 1550 0    50   ~ 0
 CPU_A5
-Text Label 14000 1700 0    50   ~ 0
+Text Label 14250 1450 0    50   ~ 0
 CPU_A6
-Text Label 14000 1600 0    50   ~ 0
+Text Label 14250 1350 0    50   ~ 0
 CPU_A7
-Text Label 14000 1500 0    50   ~ 0
+Text Label 14250 1250 0    50   ~ 0
 CPU_A8
-Text Label 14000 1400 0    50   ~ 0
+Text Label 14250 1150 0    50   ~ 0
 CPU_A9
-Text Label 14000 1300 0    50   ~ 0
+Text Label 14250 1050 0    50   ~ 0
 CPU_A10
-Text Label 14000 1200 0    50   ~ 0
+Text Label 14250 950  0    50   ~ 0
 CPU_A11
-Text Label 16000 1100 2    50   ~ 0
+Text Label 16250 850  2    50   ~ 0
 SYSCLK
-Text Label 16000 1200 2    50   ~ 0
+Text Label 16250 950  2    50   ~ 0
 M2
-Text Label 16000 1300 2    50   ~ 0
+Text Label 16250 1050 2    50   ~ 0
 CPU_A12
-Text Label 16000 1400 2    50   ~ 0
+Text Label 16250 1150 2    50   ~ 0
 CPU_A13
-Text Label 16000 1500 2    50   ~ 0
+Text Label 16250 1250 2    50   ~ 0
 CPU_A14
-Text Label 16000 1600 2    50   ~ 0
+Text Label 16250 1350 2    50   ~ 0
 CPU_D7
-Text Label 16000 1700 2    50   ~ 0
+Text Label 16250 1450 2    50   ~ 0
 CPU_D6
-Text Label 16000 1800 2    50   ~ 0
+Text Label 16250 1550 2    50   ~ 0
 CPU_D5
-Text Label 16000 1900 2    50   ~ 0
+Text Label 16250 1650 2    50   ~ 0
 CPU_D4
-Text Label 16000 2000 2    50   ~ 0
+Text Label 16250 1750 2    50   ~ 0
 CPU_D3
-Text Label 16000 2100 2    50   ~ 0
+Text Label 16250 1850 2    50   ~ 0
 CPU_D2
-Text Label 16000 2200 2    50   ~ 0
+Text Label 16250 1950 2    50   ~ 0
 CPU_D1
-Text Label 16000 2300 2    50   ~ 0
+Text Label 16250 2050 2    50   ~ 0
 CPU_D0
-Text Label 16000 2400 2    50   ~ 0
+Text Label 16250 2150 2    50   ~ 0
 ~ROMSEL
-Text Label 16000 2500 2    50   ~ 0
+Text Label 16250 2250 2    50   ~ 0
 EXP_9
-Text Label 16000 2600 2    50   ~ 0
+Text Label 16250 2350 2    50   ~ 0
 EXP_8
-Text Label 16000 2700 2    50   ~ 0
+Text Label 16250 2450 2    50   ~ 0
 EXP_7
-Text Label 16000 2800 2    50   ~ 0
+Text Label 16250 2550 2    50   ~ 0
 EXP_6
-Text Label 16000 2900 2    50   ~ 0
+Text Label 16250 2650 2    50   ~ 0
 EXP_5
-Text Label 16000 3000 2    50   ~ 0
+Text Label 16250 2750 2    50   ~ 0
 PPU_~WR
-Text Label 16000 3100 2    50   ~ 0
+Text Label 16250 2850 2    50   ~ 0
 CIRAM_~CE
-Text Label 16000 3200 2    50   ~ 0
+Text Label 16250 2950 2    50   ~ 0
 PPU_~A13
-Text Label 16000 3300 2    50   ~ 0
+Text Label 16250 3050 2    50   ~ 0
 PPU_A7
-Text Label 16000 3400 2    50   ~ 0
+Text Label 16250 3150 2    50   ~ 0
 PPU_A8
-Text Label 16000 3500 2    50   ~ 0
+Text Label 16250 3250 2    50   ~ 0
 PPU_A9
-Text Label 16000 3600 2    50   ~ 0
+Text Label 16250 3450 2    50   ~ 0
 PPU_A10
-Text Label 16000 3700 2    50   ~ 0
+Text Label 16250 3350 2    50   ~ 0
 PPU_A11
-Text Label 16000 3800 2    50   ~ 0
+Text Label 16250 3550 2    50   ~ 0
 PPU_A12
-Text Label 16000 3900 2    50   ~ 0
+Text Label 16250 3650 2    50   ~ 0
 PPU_A13
-Text Label 16000 4000 2    50   ~ 0
+Text Label 16250 3750 2    50   ~ 0
 PPU_D7
-Text Label 16000 4100 2    50   ~ 0
+Text Label 16250 3850 2    50   ~ 0
 PPU_D6
-Text Label 16000 4200 2    50   ~ 0
+Text Label 16250 3950 2    50   ~ 0
 PPU_D5
-Text Label 16000 4300 2    50   ~ 0
+Text Label 16250 4050 2    50   ~ 0
 PPU_D4
-Text Label 16000 4400 2    50   ~ 0
+Text Label 16250 4150 2    50   ~ 0
 CIC_RST
-Text Label 16000 4500 2    50   ~ 0
+Text Label 16250 4250 2    50   ~ 0
 CIC_CLK
-Text Label 16000 4600 2    50   ~ 0
+Text Label 16250 4350 2    50   ~ 0
 GND
-$Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise U1
-U 1 1 634C4205
-P 14950 5300
-F 0 "U1" H 15000 5817 50  0000 C CNN
-F 1 "ORIGINAL CIC" H 15000 5726 50  0000 C CNN
-F 2 "" H 14950 5300 50  0001 C CNN
-F 3 "~" H 14950 5300 50  0001 C CNN
-	1    14950 5300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Counter_Clockwise U2
 U 1 1 634C5023
 P 14950 6200
 F 0 "U2" H 15000 6517 50  0000 C CNN
 F 1 "CLONE CIC" H 15000 6426 50  0000 C CNN
-F 2 "" H 14950 6200 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 14950 6200 50  0001 C CNN
 F 3 "~" H 14950 6200 50  0001 C CNN
 	1    14950 6200
 	1    0    0    -1  
@@ -358,170 +347,28 @@ Text Label 14000 6200 0    50   ~ 0
 CIC_CLK
 Text Label 14000 6400 0    50   ~ 0
 GND
-Wire Wire Line
-	14000 5700 14750 5700
-Text Label 14000 5700 0    50   ~ 0
-GND
-Wire Wire Line
-	16000 5500 15250 5500
-Text Label 16000 5500 2    50   ~ 0
-GND
-Wire Wire Line
-	16000 5400 15250 5400
-Text Label 16000 5400 2    50   ~ 0
-GND
-Wire Wire Line
-	16000 5100 15250 5100
-Text Label 16000 5100 2    50   ~ 0
-GND
-Wire Wire Line
-	16000 5200 15250 5200
-Text Label 16000 5200 2    50   ~ 0
-GND
-Wire Wire Line
-	16000 5300 15250 5300
-Text Label 16000 5300 2    50   ~ 0
-GND
-Wire Wire Line
-	14750 5000 14000 5000
-Wire Wire Line
-	14750 5100 14000 5100
-Text Label 14000 5000 0    50   ~ 0
-CIC_MISO
-Text Label 14000 5100 0    50   ~ 0
-CIC_MOSI
-Wire Wire Line
-	14000 5600 14750 5600
-Text Label 14000 5600 0    50   ~ 0
-CIC_RST
-Wire Wire Line
-	14000 5500 14750 5500
-Text Label 14000 5500 0    50   ~ 0
-CIC_CLK
-Wire Wire Line
-	15250 5000 16000 5000
-Text Label 16000 5000 2    50   ~ 0
-+5V
 NoConn ~ 14750 6100
 NoConn ~ 14750 6300
-NoConn ~ 15250 5600
-NoConn ~ 15250 5700
-NoConn ~ 14750 5400
-NoConn ~ 14750 5300
-NoConn ~ 14750 5200
 $Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U3
-U 1 1 6353BFDC
-P 2450 1500
-F 0 "U3" H 2500 2217 50  0000 C CNN
-F 1 "WINDOW" H 2500 2126 50  0000 C CNN
-F 2 "" H 2450 1500 50  0001 C CNN
-F 3 "~" H 2450 1500 50  0001 C CNN
-	1    2450 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U4
-U 1 1 6353EFEC
-P 4950 1500
-F 0 "U4" H 5000 2217 50  0000 C CNN
-F 1 "SLOT" H 5000 2126 50  0000 C CNN
-F 2 "" H 4950 1500 50  0001 C CNN
-F 3 "~" H 4950 1500 50  0001 C CNN
-	1    4950 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1200 2250 1200
-Wire Wire Line
-	1500 1300 2250 1300
-Wire Wire Line
-	1500 1400 2250 1400
-Text Label 1500 1400 0    50   ~ 0
-CPU_A12
-Text Label 1500 1300 0    50   ~ 0
-CPU_A13
-Text Label 1500 1200 0    50   ~ 0
-CPU_A14
-Wire Wire Line
-	1500 1100 2250 1100
-Text Label 1500 1100 0    50   ~ 0
-~ROMSEL
-Wire Wire Line
-	4750 1300 4000 1300
-Wire Wire Line
-	4750 1200 4000 1200
-Wire Wire Line
-	4750 1100 4000 1100
-Text Label 4000 1300 0    50   ~ 0
-CPU_A9
-Text Label 4000 1200 0    50   ~ 0
-CPU_A10
-Text Label 4000 1100 0    50   ~ 0
-CPU_A11
-Wire Wire Line
-	4750 1400 4000 1400
-Text Label 4000 1400 0    50   ~ 0
-CPU_A8
-Wire Wire Line
-	1500 1000 2250 1000
-Text Label 1500 1000 0    50   ~ 0
-M2
-Wire Wire Line
-	4000 1000 4750 1000
-Text Label 4000 1000 0    50   ~ 0
-~IOSEL
-Wire Wire Line
-	3500 1100 2750 1100
-Text Label 3500 1100 2    50   ~ 0
-~IOSEL
-Wire Wire Line
-	1500 2100 2250 2100
-Text Label 1500 2100 0    50   ~ 0
-GND
-Wire Wire Line
-	2750 1000 3500 1000
-Text Label 3500 1000 2    50   ~ 0
-+5V
-Wire Wire Line
-	5250 1000 6000 1000
-Text Label 6000 1000 2    50   ~ 0
-+5V
-Wire Wire Line
-	4000 2100 4750 2100
-Text Label 4000 2100 0    50   ~ 0
-GND
-$Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise U9
+L Connector_Generic:Conn_02x16_Counter_Clockwise U5
 U 1 1 635F78FC
-P 2450 5000
-F 0 "U9" H 2500 5917 50  0000 C CNN
-F 1 "512Kx8 SRAM PRG" H 2500 5826 50  0000 C CNN
-F 2 "" H 2450 5000 50  0001 C CNN
-F 3 "~" H 2450 5000 50  0001 C CNN
-	1    2450 5000
+P 1700 3050
+F 0 "U5" H 1750 3967 50  0000 C CNN
+F 1 "512Kx8 SRAM PRG" H 1750 3876 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 1700 3050 50  0001 C CNN
+F 3 "~" H 1700 3050 50  0001 C CNN
+	1    1700 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise U10
+L Connector_Generic:Conn_02x16_Counter_Clockwise U6
 U 1 1 635F8A93
-P 4950 5000
-F 0 "U10" H 5000 5917 50  0000 C CNN
-F 1 "512Kx8 FLASH PRG" H 5000 5826 50  0000 C CNN
-F 2 "" H 4950 5000 50  0001 C CNN
-F 3 "~" H 4950 5000 50  0001 C CNN
-	1    4950 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x24_Counter_Clockwise U9
-U 1 1 635F8F26
-P 4950 7600
-F 0 "U9" H 5000 8917 50  0000 C CNN
-F 1 "FDC37C78" H 5000 8826 50  0000 C CNN
-F 2 "" H 4950 7600 50  0001 C CNN
-F 3 "~" H 4950 7600 50  0001 C CNN
-	1    4950 7600
+P 3950 3050
+F 0 "U6" H 4000 3967 50  0000 C CNN
+F 1 "512Kx8 FLASH PRG" H 4000 3876 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 3950 3050 50  0001 C CNN
+F 3 "~" H 3950 3050 50  0001 C CNN
+	1    3950 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -530,23 +377,15 @@ U 1 1 636687AF
 P 14950 8000
 F 0 "J3" H 15000 9117 50  0000 C CNN
 F 1 "EXPANSION" H 15000 9026 50  0000 C CNN
-F 2 "" H 14950 8000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 14950 8000 50  0001 C CNN
 F 3 "~" H 14950 8000 50  0001 C CNN
 	1    14950 8000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 1900 1500 1900
-Wire Wire Line
-	2250 1800 1500 1800
-Wire Wire Line
 	14750 8300 14000 8300
 Wire Wire Line
 	14750 8400 14000 8400
-Text Label 1500 1900 0    50   ~ 0
-CPU_A0
-Text Label 1500 1800 0    50   ~ 0
-CPU_A1
 Text Label 14000 8300 0    50   ~ 0
 CPU_A2
 Text Label 14000 8400 0    50   ~ 0
@@ -583,46 +422,6 @@ Text Label 16000 8200 2    50   ~ 0
 CPU_D1
 Text Label 16000 8100 2    50   ~ 0
 CPU_D0
-Wire Wire Line
-	6000 1300 5250 1300
-Text Label 6000 1300 2    50   ~ 0
-~IOSEL0
-Wire Wire Line
-	6000 1400 5250 1400
-Text Label 6000 1400 2    50   ~ 0
-~IOSEL1
-Wire Wire Line
-	6000 1500 5250 1500
-Text Label 6000 1500 2    50   ~ 0
-~IOSEL2
-Wire Wire Line
-	6000 1600 5250 1600
-Text Label 6000 1600 2    50   ~ 0
-~IOSEL3
-Wire Wire Line
-	6000 1700 5250 1700
-Text Label 6000 1700 2    50   ~ 0
-~DEVSEL0
-Wire Wire Line
-	6000 1800 5250 1800
-Text Label 6000 1800 2    50   ~ 0
-~DEVSEL1
-Wire Wire Line
-	6000 1900 5250 1900
-Text Label 6000 1900 2    50   ~ 0
-~DEVSEL2
-Wire Wire Line
-	6000 2000 5250 2000
-Text Label 6000 2000 2    50   ~ 0
-~DEVSEL3
-Wire Wire Line
-	3500 1200 2750 1200
-Text Label 3500 1200 2    50   ~ 0
-~ROM_CE
-Wire Wire Line
-	3500 1300 2750 1300
-Text Label 3500 1300 2    50   ~ 0
-~RAM_CE
 Wire Wire Line
 	14750 7100 14000 7100
 Text Label 14000 7100 0    50   ~ 0
@@ -704,507 +503,379 @@ CPU_A6
 Text Label 14000 8800 0    50   ~ 0
 CPU_A7
 Wire Wire Line
-	9750 5400 9000 5400
+	8250 3500 7500 3500
 Wire Wire Line
-	9750 5200 9000 5200
+	8250 3300 7500 3300
 Wire Wire Line
-	9750 5100 9000 5100
+	8250 3200 7500 3200
 Wire Wire Line
-	9750 5000 9000 5000
+	8250 3100 7500 3100
 Wire Wire Line
-	9750 4900 9000 4900
+	8250 3000 7500 3000
 Wire Wire Line
-	10250 5800 11000 5800
+	8750 3900 9500 3900
 Wire Wire Line
-	9750 5700 9000 5700
+	8250 3800 7500 3800
 Wire Wire Line
-	9750 5600 9000 5600
+	8250 3700 7500 3700
 Wire Wire Line
-	9750 5500 9000 5500
-Text Label 11000 5800 2    50   ~ 0
+	8250 3600 7500 3600
+Text Label 9500 3900 2    50   ~ 0
 PPU_D3
-Text Label 9000 5700 0    50   ~ 0
+Text Label 7500 3800 0    50   ~ 0
 PPU_D2
-Text Label 9000 5600 0    50   ~ 0
+Text Label 7500 3700 0    50   ~ 0
 PPU_D1
-Text Label 9000 5500 0    50   ~ 0
+Text Label 7500 3600 0    50   ~ 0
 PPU_D0
-Text Label 9000 5400 0    50   ~ 0
+Text Label 7500 3500 0    50   ~ 0
 PPU_A0
-Text Label 9000 5300 0    50   ~ 0
+Text Label 7500 3400 0    50   ~ 0
 PPU_A1
-Text Label 9000 5200 0    50   ~ 0
+Text Label 7500 3300 0    50   ~ 0
 PPU_A2
-Text Label 9000 5100 0    50   ~ 0
+Text Label 7500 3200 0    50   ~ 0
 PPU_A3
-Text Label 9000 5000 0    50   ~ 0
+Text Label 7500 3100 0    50   ~ 0
 PPU_A4
-Text Label 9000 4900 0    50   ~ 0
+Text Label 7500 3000 0    50   ~ 0
 PPU_A5
-Text Label 9000 4800 0    50   ~ 0
+Text Label 7500 2900 0    50   ~ 0
 PPU_A6
 Wire Wire Line
-	11000 5700 10250 5700
+	9500 3800 8750 3800
 Wire Wire Line
-	11000 5600 10250 5600
+	9500 3700 8750 3700
 Wire Wire Line
-	11000 5500 10250 5500
+	9500 3600 8750 3600
 Wire Wire Line
-	11000 5400 10250 5400
+	9500 3500 8750 3500
 Wire Wire Line
-	11000 5000 10250 5000
+	9500 3100 8750 3100
 Wire Wire Line
-	11000 5200 10250 5200
+	9500 3300 8750 3300
 Wire Wire Line
-	11000 4900 10250 4900
+	9500 3000 8750 3000
 Wire Wire Line
-	9000 4700 9750 4700
-Wire Wire Line
-	9000 6850 9750 6850
-Text Label 9000 6850 0    50   ~ 0
-PPU_~A13
-Text Label 9000 4700 0    50   ~ 0
+	7500 2800 8250 2800
+Text Label 7500 2800 0    50   ~ 0
 PPU_A7
-Text Label 11000 4800 2    50   ~ 0
+Text Label 9500 2900 2    50   ~ 0
 PPU_A8
-Text Label 11000 4900 2    50   ~ 0
+Text Label 9500 3000 2    50   ~ 0
 PPU_A9
-Text Label 11000 5200 2    50   ~ 0
+Text Label 9500 3300 2    50   ~ 0
 PPU_A10
-Text Label 11000 5000 2    50   ~ 0
+Text Label 9500 3100 2    50   ~ 0
 PPU_A11
-Text Label 11000 5300 2    50   ~ 0
-PPU_A13
-Text Label 11000 5400 2    50   ~ 0
+Text Label 9500 3400 2    50   ~ 0
+~CHR_ROM_CE
+Text Label 9500 3500 2    50   ~ 0
 PPU_D7
-Text Label 11000 5500 2    50   ~ 0
+Text Label 9500 3600 2    50   ~ 0
 PPU_D6
-Text Label 11000 5600 2    50   ~ 0
+Text Label 9500 3700 2    50   ~ 0
 PPU_D5
-Text Label 11000 5700 2    50   ~ 0
+Text Label 9500 3800 2    50   ~ 0
 PPU_D4
 Wire Wire Line
-	9750 6500 9000 6500
-Text Label 9000 6500 0    50   ~ 0
+	7000 8550 6250 8550
+Text Label 6250 8550 0    50   ~ 0
 CIRAM_A10
 Wire Wire Line
-	9000 6950 9750 6950
-Text Label 9000 6950 0    50   ~ 0
-CIRAM_~CE
-Wire Wire Line
-	10250 4300 11000 4300
-Text Label 11000 4300 2    50   ~ 0
+	8750 2400 9500 2400
+Text Label 9500 2400 2    50   ~ 0
 +5V
 Wire Wire Line
-	5250 4300 6000 4300
-Text Label 6000 4300 2    50   ~ 0
+	4250 2350 5000 2350
+Text Label 5000 2350 2    50   ~ 0
 +5V
 Wire Wire Line
-	2750 4300 3500 4300
-Text Label 3500 4300 2    50   ~ 0
+	2000 2350 2750 2350
+Text Label 2750 2350 2    50   ~ 0
 +5V
 Wire Wire Line
-	9000 5800 9750 5800
-Text Label 9000 5800 0    50   ~ 0
+	7500 3900 8250 3900
+Text Label 7500 3900 0    50   ~ 0
 GND
 Wire Wire Line
-	4000 5800 4750 5800
-Text Label 4000 5800 0    50   ~ 0
+	3000 3850 3750 3850
+Text Label 3000 3850 0    50   ~ 0
 GND
 Wire Wire Line
-	1500 5800 2250 5800
-Text Label 1500 5800 0    50   ~ 0
+	750  3850 1500 3850
+Text Label 750  3850 0    50   ~ 0
 GND
 Wire Wire Line
-	1500 5500 2250 5500
+	750  3550 1500 3550
 Wire Wire Line
-	1500 5600 2250 5600
+	750  3650 1500 3650
 Wire Wire Line
-	1500 5700 2250 5700
-Text Label 1500 5700 0    50   ~ 0
+	750  3750 1500 3750
+Text Label 750  3750 0    50   ~ 0
 CPU_D2
-Text Label 1500 5600 0    50   ~ 0
+Text Label 750  3650 0    50   ~ 0
 CPU_D1
-Text Label 1500 5500 0    50   ~ 0
+Text Label 750  3550 0    50   ~ 0
 CPU_D0
 Wire Wire Line
-	3500 5800 2750 5800
+	2750 3850 2000 3850
 Wire Wire Line
-	3500 5700 2750 5700
+	2750 3750 2000 3750
 Wire Wire Line
-	3500 5600 2750 5600
+	2750 3650 2000 3650
 Wire Wire Line
-	3500 5500 2750 5500
+	2750 3550 2000 3550
 Wire Wire Line
-	3500 5400 2750 5400
-Text Label 3500 5400 2    50   ~ 0
+	2750 3450 2000 3450
+Text Label 2750 3450 2    50   ~ 0
 CPU_D7
-Text Label 3500 5500 2    50   ~ 0
+Text Label 2750 3550 2    50   ~ 0
 CPU_D6
-Text Label 3500 5600 2    50   ~ 0
+Text Label 2750 3650 2    50   ~ 0
 CPU_D5
-Text Label 3500 5700 2    50   ~ 0
+Text Label 2750 3750 2    50   ~ 0
 CPU_D4
-Text Label 3500 5800 2    50   ~ 0
+Text Label 2750 3850 2    50   ~ 0
 CPU_D3
 Wire Wire Line
-	6000 5800 5250 5800
+	5000 3850 4250 3850
 Wire Wire Line
-	6000 5700 5250 5700
+	5000 3750 4250 3750
 Wire Wire Line
-	6000 5600 5250 5600
+	5000 3650 4250 3650
 Wire Wire Line
-	6000 5500 5250 5500
+	5000 3550 4250 3550
 Wire Wire Line
-	6000 5400 5250 5400
-Text Label 6000 5400 2    50   ~ 0
+	5000 3450 4250 3450
+Text Label 5000 3450 2    50   ~ 0
 CPU_D7
-Text Label 6000 5500 2    50   ~ 0
+Text Label 5000 3550 2    50   ~ 0
 CPU_D6
-Text Label 6000 5600 2    50   ~ 0
+Text Label 5000 3650 2    50   ~ 0
 CPU_D5
-Text Label 6000 5700 2    50   ~ 0
+Text Label 5000 3750 2    50   ~ 0
 CPU_D4
-Text Label 6000 5800 2    50   ~ 0
+Text Label 5000 3850 2    50   ~ 0
 CPU_D3
 Wire Wire Line
-	4000 5500 4750 5500
+	3000 3550 3750 3550
 Wire Wire Line
-	4000 5600 4750 5600
+	3000 3650 3750 3650
 Wire Wire Line
-	4000 5700 4750 5700
-Text Label 4000 5700 0    50   ~ 0
+	3000 3750 3750 3750
+Text Label 3000 3750 0    50   ~ 0
 CPU_D2
-Text Label 4000 5600 0    50   ~ 0
+Text Label 3000 3650 0    50   ~ 0
 CPU_D1
-Text Label 4000 5500 0    50   ~ 0
+Text Label 3000 3550 0    50   ~ 0
 CPU_D0
 Wire Wire Line
-	2250 5400 1500 5400
+	1500 3450 750  3450
 Wire Wire Line
-	2250 5300 1500 5300
+	1500 3350 750  3350
 Wire Wire Line
-	2250 5200 1500 5200
+	1500 3250 750  3250
 Wire Wire Line
-	2250 5100 1500 5100
-Text Label 1500 5400 0    50   ~ 0
+	1500 3150 750  3150
+Text Label 750  3450 0    50   ~ 0
 CPU_A0
-Text Label 1500 5300 0    50   ~ 0
+Text Label 750  3350 0    50   ~ 0
 CPU_A1
-Text Label 1500 5200 0    50   ~ 0
+Text Label 750  3250 0    50   ~ 0
 CPU_A2
-Text Label 1500 5100 0    50   ~ 0
+Text Label 750  3150 0    50   ~ 0
 CPU_A3
-Text Label 1500 4900 0    50   ~ 0
+Text Label 750  2950 0    50   ~ 0
 CPU_A5
-Text Label 1500 5000 0    50   ~ 0
+Text Label 750  3050 0    50   ~ 0
 CPU_A4
 Wire Wire Line
-	2250 5000 1500 5000
+	1500 3050 750  3050
 Wire Wire Line
-	2250 4800 1500 4800
+	1500 2850 750  2850
 Wire Wire Line
-	2250 4900 1500 4900
+	1500 2950 750  2950
 Wire Wire Line
-	2250 4700 1500 4700
-Text Label 1500 4800 0    50   ~ 0
+	1500 2750 750  2750
+Text Label 750  2850 0    50   ~ 0
 CPU_A6
-Text Label 1500 4700 0    50   ~ 0
+Text Label 750  2750 0    50   ~ 0
 CPU_A7
 Wire Wire Line
-	4750 5400 4000 5400
+	3750 3450 3000 3450
 Wire Wire Line
-	4750 5300 4000 5300
+	3750 3350 3000 3350
 Wire Wire Line
-	4750 5200 4000 5200
+	3750 3250 3000 3250
 Wire Wire Line
-	4750 5100 4000 5100
-Text Label 4000 5400 0    50   ~ 0
+	3750 3150 3000 3150
+Text Label 3000 3450 0    50   ~ 0
 CPU_A0
-Text Label 4000 5300 0    50   ~ 0
+Text Label 3000 3350 0    50   ~ 0
 CPU_A1
-Text Label 4000 5200 0    50   ~ 0
+Text Label 3000 3250 0    50   ~ 0
 CPU_A2
-Text Label 4000 5100 0    50   ~ 0
+Text Label 3000 3150 0    50   ~ 0
 CPU_A3
-Text Label 4000 4900 0    50   ~ 0
+Text Label 3000 2950 0    50   ~ 0
 CPU_A5
-Text Label 4000 5000 0    50   ~ 0
+Text Label 3000 3050 0    50   ~ 0
 CPU_A4
 Wire Wire Line
-	4750 5000 4000 5000
+	3750 3050 3000 3050
 Wire Wire Line
-	4750 4800 4000 4800
+	3750 2850 3000 2850
 Wire Wire Line
-	4750 4900 4000 4900
+	3750 2950 3000 2950
 Wire Wire Line
-	4750 4700 4000 4700
-Text Label 4000 4800 0    50   ~ 0
+	3750 2750 3000 2750
+Text Label 3000 2850 0    50   ~ 0
 CPU_A6
-Text Label 4000 4700 0    50   ~ 0
+Text Label 3000 2750 0    50   ~ 0
 CPU_A7
 Wire Wire Line
-	2750 4900 3500 4900
+	2000 2950 2750 2950
 Wire Wire Line
-	2750 5200 3500 5200
+	2000 3250 2750 3250
 Wire Wire Line
-	2750 5000 3500 5000
-Text Label 3500 4900 2    50   ~ 0
+	2000 3050 2750 3050
+Text Label 2750 2950 2    50   ~ 0
 CPU_A9
-Text Label 3500 5200 2    50   ~ 0
+Text Label 2750 3250 2    50   ~ 0
 CPU_A10
-Text Label 3500 5000 2    50   ~ 0
+Text Label 2750 3050 2    50   ~ 0
 CPU_A11
 Wire Wire Line
-	2750 4800 3500 4800
-Text Label 3500 4800 2    50   ~ 0
+	2000 2850 2750 2850
+Text Label 2750 2850 2    50   ~ 0
 CPU_A8
 Wire Wire Line
-	5250 4900 6000 4900
+	4250 2950 5000 2950
 Wire Wire Line
-	5250 5200 6000 5200
+	4250 3250 5000 3250
 Wire Wire Line
-	5250 5000 6000 5000
-Text Label 6000 4900 2    50   ~ 0
+	4250 3050 5000 3050
+Text Label 5000 2950 2    50   ~ 0
 CPU_A9
-Text Label 6000 5200 2    50   ~ 0
+Text Label 5000 3250 2    50   ~ 0
 CPU_A10
-Text Label 6000 5000 2    50   ~ 0
+Text Label 5000 3050 2    50   ~ 0
 CPU_A11
 Wire Wire Line
-	5250 4800 6000 4800
-Text Label 6000 4800 2    50   ~ 0
+	4250 2850 5000 2850
+Text Label 5000 2850 2    50   ~ 0
 CPU_A8
 Wire Wire Line
-	6000 5300 5250 5300
-Text Label 6000 5300 2    50   ~ 0
+	5000 3350 4250 3350
+Text Label 5000 3350 2    50   ~ 0
 ~ROM_CE
 Wire Wire Line
-	3500 5300 2750 5300
-Text Label 3500 5300 2    50   ~ 0
+	2750 3350 2000 3350
+Text Label 2750 3350 2    50   ~ 0
 ~RAM_CE
 Wire Wire Line
-	2750 3400 3500 3400
-Text Label 3500 3400 2    50   ~ 0
-MMU_A18
-Wire Wire Line
-	2750 3300 3500 3300
-Text Label 3500 3300 2    50   ~ 0
-MMU_A17
-Wire Wire Line
-	2750 3200 3500 3200
-Text Label 3500 3200 2    50   ~ 0
-MMU_A16
-Wire Wire Line
-	2750 3100 3500 3100
-Text Label 3500 3100 2    50   ~ 0
-MMU_A15
-Wire Wire Line
-	2750 3000 3500 3000
-Text Label 3500 3000 2    50   ~ 0
-MMU_A14
-Wire Wire Line
-	2750 2900 3500 2900
-Text Label 3500 2900 2    50   ~ 0
-MMU_A13
-Wire Wire Line
-	2750 2800 3500 2800
-Text Label 3500 2800 2    50   ~ 0
+	1500 2650 750  2650
+Text Label 750  2650 0    50   ~ 0
 MMU_A12
 Wire Wire Line
-	2250 4600 1500 4600
-Text Label 1500 4600 0    50   ~ 0
-MMU_A12
-Wire Wire Line
-	2250 4500 1500 4500
-Text Label 1500 4500 0    50   ~ 0
+	1500 2550 750  2550
+Text Label 750  2550 0    50   ~ 0
 MMU_A14
 Wire Wire Line
-	2250 4400 1500 4400
-Text Label 1500 4400 0    50   ~ 0
+	1500 2450 750  2450
+Text Label 750  2450 0    50   ~ 0
 MMU_A16
 Wire Wire Line
-	2250 4300 1500 4300
-Text Label 1500 4300 0    50   ~ 0
+	1500 2350 750  2350
+Text Label 750  2350 0    50   ~ 0
 MMU_A18
 Wire Wire Line
-	2750 4400 3500 4400
-Text Label 3500 4400 2    50   ~ 0
+	2000 2450 2750 2450
+Text Label 2750 2450 2    50   ~ 0
 MMU_A15
 Wire Wire Line
-	2750 4500 3500 4500
-Text Label 3500 4500 2    50   ~ 0
+	2000 2550 2750 2550
+Text Label 2750 2550 2    50   ~ 0
 MMU_A17
 Wire Wire Line
-	2750 4700 3500 4700
-Text Label 3500 4700 2    50   ~ 0
+	2000 2750 2750 2750
+Text Label 2750 2750 2    50   ~ 0
 MMU_A13
 Wire Wire Line
-	4750 4600 4000 4600
-Text Label 4000 4600 0    50   ~ 0
+	3750 2650 3000 2650
+Text Label 3000 2650 0    50   ~ 0
 MMU_A12
 Wire Wire Line
-	5250 4600 6000 4600
-Text Label 6000 4600 2    50   ~ 0
+	4250 2650 5000 2650
+Text Label 5000 2650 2    50   ~ 0
 MMU_A14
 Wire Wire Line
-	4750 4400 4000 4400
-Text Label 4000 4400 0    50   ~ 0
+	3750 2450 3000 2450
+Text Label 3000 2450 0    50   ~ 0
 MMU_A16
 Wire Wire Line
-	4750 4300 4000 4300
-Text Label 4000 4300 0    50   ~ 0
+	3750 2350 3000 2350
+Text Label 3000 2350 0    50   ~ 0
 MMU_A18
 Wire Wire Line
-	4750 4500 4000 4500
-Text Label 4000 4500 0    50   ~ 0
+	3750 2550 3000 2550
+Text Label 3000 2550 0    50   ~ 0
 MMU_A15
 Wire Wire Line
-	5250 4500 6000 4500
-Text Label 6000 4500 2    50   ~ 0
+	4250 2550 5000 2550
+Text Label 5000 2550 2    50   ~ 0
 MMU_A17
 Wire Wire Line
-	5250 4700 6000 4700
-Text Label 6000 4700 2    50   ~ 0
+	4250 2750 5000 2750
+Text Label 5000 2750 2    50   ~ 0
 MMU_A13
 Wire Wire Line
-	2250 2000 1500 2000
-Text Label 1500 2000 0    50   ~ 0
-CPU_R~W
-Wire Wire Line
-	2750 1900 3500 1900
-Text Label 3500 1900 2    50   ~ 0
+	2000 3150 2750 3150
+Text Label 2750 3150 2    50   ~ 0
 ~PRG_OE
 Wire Wire Line
-	2750 2000 3500 2000
-Text Label 3500 2000 2    50   ~ 0
+	4250 2450 5000 2450
+Text Label 5000 2450 2    50   ~ 0
 ~PRG_WE
 Wire Wire Line
-	2750 5100 3500 5100
-Text Label 3500 5100 2    50   ~ 0
-~PRG_OE
+	4250 3150 5000 3150
 Wire Wire Line
-	5250 4400 6000 4400
-Text Label 6000 4400 2    50   ~ 0
+	2000 2650 2750 2650
+Text Label 2750 2650 2    50   ~ 0
 ~PRG_WE
 Wire Wire Line
-	5250 5100 6000 5100
-Wire Wire Line
-	2750 4600 3500 4600
-Text Label 3500 4600 2    50   ~ 0
-~PRG_WE
-Wire Wire Line
-	7750 3400 8500 3400
-Text Label 8500 3400 2    50   ~ 0
-PMU_A18
-Wire Wire Line
-	7750 3300 8500 3300
-Text Label 8500 3300 2    50   ~ 0
-PMU_A17
-Wire Wire Line
-	7750 3200 8500 3200
-Text Label 8500 3200 2    50   ~ 0
-PMU_A16
-Wire Wire Line
-	7750 3100 8500 3100
-Text Label 8500 3100 2    50   ~ 0
-PMU_A15
-Wire Wire Line
-	7750 2900 8500 2900
-Text Label 8500 2900 2    50   ~ 0
-PMU_A13
-Wire Wire Line
-	7750 2800 8500 2800
-Text Label 8500 2800 2    50   ~ 0
-PMU_A12
-Wire Wire Line
-	10250 5100 11000 5100
-Text Label 11000 5100 2    50   ~ 0
+	8750 3200 9500 3200
+Text Label 9500 3200 2    50   ~ 0
 PPU_~RD
 Wire Wire Line
-	11000 4400 10250 4400
-Text Label 11000 4400 2    50   ~ 0
+	9500 2500 8750 2500
+Text Label 9500 2500 2    50   ~ 0
 PPU_~WR
 Wire Wire Line
-	9750 4300 9000 4300
-Text Label 9000 4300 0    50   ~ 0
+	8250 2400 7500 2400
+Text Label 7500 2400 0    50   ~ 0
 PMU_A18
 Wire Wire Line
-	9750 4400 9000 4400
-Text Label 9000 4400 0    50   ~ 0
+	8250 2500 7500 2500
+Text Label 7500 2500 0    50   ~ 0
 PMU_A16
 Wire Wire Line
-	9750 4500 9000 4500
-Text Label 9000 4500 0    50   ~ 0
+	8250 2600 7500 2600
+Text Label 7500 2600 0    50   ~ 0
 PMU_A15
-Text Label 8500 3700 2    50   ~ 0
-PPU_A12
 Wire Wire Line
-	8500 3700 7750 3700
-Wire Wire Line
-	10250 4700 11000 4700
-Text Label 11000 4700 2    50   ~ 0
+	8750 2800 9500 2800
+Text Label 9500 2800 2    50   ~ 0
 PMU_A13
-Text Label 8500 3000 2    50   ~ 0
+Text Label 9500 2700 2    50   ~ 0
 PMU_A14
 Wire Wire Line
-	7750 3000 8500 3000
-Text Label 11000 4600 2    50   ~ 0
-PMU_A14
+	8750 2700 9500 2700
 Wire Wire Line
-	10250 4600 11000 4600
-Wire Wire Line
-	10250 4500 11000 4500
-Text Label 11000 4500 2    50   ~ 0
+	8750 2600 9500 2600
+Text Label 9500 2600 2    50   ~ 0
 PMU_A17
-Wire Wire Line
-	2750 1400 3500 1400
-Text Label 3500 1400 2    50   ~ 0
-PM0_LE
-Wire Wire Line
-	2750 1600 3500 1600
-Text Label 3500 1600 2    50   ~ 0
-CM0_LE
-Wire Wire Line
-	2750 1700 3500 1700
-Text Label 3500 1700 2    50   ~ 0
-CM1_LE
-Wire Wire Line
-	6000 1100 5250 1100
-Text Label 6000 1100 2    50   ~ 0
-~MMUSEL
-Wire Wire Line
-	6000 1200 5250 1200
-Text Label 6000 1200 2    50   ~ 0
-~FDCSEL
-Wire Wire Line
-	4000 2000 4750 2000
-Text Label 4000 2000 0    50   ~ 0
-GND
-Wire Wire Line
-	4000 1900 4750 1900
-Text Label 4000 1900 0    50   ~ 0
-GND
-Wire Wire Line
-	4000 1800 4750 1800
-Text Label 4000 1800 0    50   ~ 0
-GND
-Wire Wire Line
-	4000 1700 4750 1700
-Text Label 4000 1700 0    50   ~ 0
-GND
-Wire Wire Line
-	4000 1600 4750 1600
-Text Label 4000 1600 0    50   ~ 0
-GND
-Wire Wire Line
-	3500 2100 2750 2100
-Text Label 3500 2100 2    50   ~ 0
-GND
-Wire Wire Line
-	6000 2100 5250 2100
-Text Label 6000 2100 2    50   ~ 0
-GND
 Wire Wire Line
 	14750 8100 14000 8100
 Wire Wire Line
@@ -1245,941 +916,726 @@ Wire Wire Line
 	14750 9000 14000 9000
 Text Label 14000 9000 0    50   ~ 0
 ~IRQ
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U5
-U 1 1 653BFB98
-P 2450 3100
-F 0 "U5" H 2500 3817 50  0000 C CNN
-F 1 "PRG MMU 0" H 2500 3726 50  0000 C CNN
-F 2 "" H 2450 3100 50  0001 C CNN
-F 3 "~" H 2450 3100 50  0001 C CNN
-	1    2450 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1500 2800 2250 2800
-Wire Wire Line
-	1500 2900 2250 2900
-Wire Wire Line
-	1500 3000 2250 3000
-Text Label 1500 3000 0    50   ~ 0
-CPU_D2
-Text Label 1500 2900 0    50   ~ 0
-CPU_D1
-Text Label 1500 2800 0    50   ~ 0
-CPU_D0
-Wire Wire Line
-	1500 3100 2250 3100
-Wire Wire Line
-	1500 3200 2250 3200
-Wire Wire Line
-	1500 3300 2250 3300
-Wire Wire Line
-	1500 3400 2250 3400
-Wire Wire Line
-	1500 3500 2250 3500
-Text Label 1500 3500 0    50   ~ 0
-CPU_D7
-Text Label 1500 3400 0    50   ~ 0
-CPU_D6
-Text Label 1500 3300 0    50   ~ 0
-CPU_D5
-Text Label 1500 3200 0    50   ~ 0
-CPU_D4
-Text Label 1500 3100 0    50   ~ 0
-CPU_D3
-Wire Wire Line
-	2250 1500 1500 1500
-Text Label 1500 1500 0    50   ~ 0
-MMU_A19
-Wire Wire Line
-	2750 3500 3500 3500
-Text Label 3500 3500 2    50   ~ 0
-MMU_A19
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U7
-U 1 1 658F26C2
-P 7450 3100
-F 0 "U7" H 7500 3817 50  0000 C CNN
-F 1 "CHR MMU 0" H 7500 3726 50  0000 C CNN
-F 2 "" H 7450 3100 50  0001 C CNN
-F 3 "~" H 7450 3100 50  0001 C CNN
-	1    7450 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 2800 7250 2800
-Wire Wire Line
-	6500 2900 7250 2900
-Wire Wire Line
-	6500 3000 7250 3000
-Text Label 6500 3000 0    50   ~ 0
-CPU_D2
-Text Label 6500 2900 0    50   ~ 0
-CPU_D1
-Text Label 6500 2800 0    50   ~ 0
-CPU_D0
-Wire Wire Line
-	6500 3100 7250 3100
-Wire Wire Line
-	6500 3200 7250 3200
-Wire Wire Line
-	6500 3300 7250 3300
-Wire Wire Line
-	6500 3400 7250 3400
-Wire Wire Line
-	6500 3500 7250 3500
-Text Label 6500 3500 0    50   ~ 0
-CPU_D7
-Text Label 6500 3400 0    50   ~ 0
-CPU_D6
-Text Label 6500 3300 0    50   ~ 0
-CPU_D5
-Text Label 6500 3200 0    50   ~ 0
-CPU_D4
-Text Label 6500 3100 0    50   ~ 0
-CPU_D3
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U8
-U 1 1 65933E71
-P 9950 3100
-F 0 "U8" H 10000 3817 50  0000 C CNN
-F 1 "CHR MMU 1" H 10000 3726 50  0000 C CNN
-F 2 "" H 9950 3100 50  0001 C CNN
-F 3 "~" H 9950 3100 50  0001 C CNN
-	1    9950 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 2800 9750 2800
-Wire Wire Line
-	9000 2900 9750 2900
-Wire Wire Line
-	9000 3000 9750 3000
-Text Label 9000 3000 0    50   ~ 0
-CPU_D2
-Text Label 9000 2900 0    50   ~ 0
-CPU_D1
-Text Label 9000 2800 0    50   ~ 0
-CPU_D0
-Wire Wire Line
-	9000 3100 9750 3100
-Wire Wire Line
-	9000 3200 9750 3200
-Wire Wire Line
-	9000 3300 9750 3300
-Wire Wire Line
-	9000 3400 9750 3400
-Wire Wire Line
-	9000 3500 9750 3500
-Text Label 9000 3500 0    50   ~ 0
-CPU_D7
-Text Label 9000 3400 0    50   ~ 0
-CPU_D6
-Text Label 9000 3300 0    50   ~ 0
-CPU_D5
-Text Label 9000 3200 0    50   ~ 0
-CPU_D4
-Text Label 9000 3100 0    50   ~ 0
-CPU_D3
-Wire Wire Line
-	9000 3600 9750 3600
-Text Label 9000 3600 0    50   ~ 0
-GND
-Text Label 11000 3700 2    50   ~ 0
-PPU_~A12
-Wire Wire Line
-	11000 3700 10250 3700
-Wire Wire Line
-	10250 3400 11000 3400
-Text Label 11000 3400 2    50   ~ 0
-PMU_A18
-Wire Wire Line
-	10250 3300 11000 3300
-Text Label 11000 3300 2    50   ~ 0
-PMU_A17
-Wire Wire Line
-	10250 3200 11000 3200
-Text Label 11000 3200 2    50   ~ 0
-PMU_A16
-Wire Wire Line
-	10250 3100 11000 3100
-Text Label 11000 3100 2    50   ~ 0
-PMU_A15
-Wire Wire Line
-	10250 2900 11000 2900
-Text Label 11000 2900 2    50   ~ 0
-PMU_A13
-Wire Wire Line
-	10250 2800 11000 2800
-Text Label 11000 2800 2    50   ~ 0
-PMU_A12
-Text Label 11000 3000 2    50   ~ 0
-PMU_A14
-Wire Wire Line
-	10250 3000 11000 3000
-Wire Wire Line
-	9750 4600 9000 4600
-Text Label 9000 4600 0    50   ~ 0
+	8250 2700 7500 2700
+Text Label 7500 2700 0    50   ~ 0
 PMU_A12
 $Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise U11
+L Connector_Generic:Conn_02x16_Counter_Clockwise U7
 U 1 1 65FF8E00
-P 7450 5000
-F 0 "U11" H 7500 5917 50  0000 C CNN
-F 1 "512Kx8 SRAM CHR" H 7500 5826 50  0000 C CNN
-F 2 "" H 7450 5000 50  0001 C CNN
-F 3 "~" H 7450 5000 50  0001 C CNN
-	1    7450 5000
+P 6200 3100
+F 0 "U7" H 6250 4017 50  0000 C CNN
+F 1 "512Kx8 SRAM CHR" H 6250 3926 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 6200 3100 50  0001 C CNN
+F 3 "~" H 6200 3100 50  0001 C CNN
+	1    6200 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 4300 8500 4300
-Text Label 8500 4300 2    50   ~ 0
+	6500 2400 7250 2400
+Text Label 7250 2400 2    50   ~ 0
 +5V
 Wire Wire Line
-	6500 5800 7250 5800
-Text Label 6500 5800 0    50   ~ 0
+	5250 3900 6000 3900
+Text Label 5250 3900 0    50   ~ 0
 GND
 Wire Wire Line
-	4000 1500 4750 1500
-Text Label 4000 1500 0    50   ~ 0
-GND
+	9500 3400 8750 3400
 Wire Wire Line
-	7750 3500 8500 3500
-Text Label 8500 3500 2    50   ~ 0
-PMU_A19
+	8250 3400 7500 3400
 Wire Wire Line
-	10250 3500 11000 3500
-Text Label 11000 3500 2    50   ~ 0
-PMU_A19
+	8250 2900 7500 2900
 Wire Wire Line
-	2750 1800 3500 1800
-Text Label 3500 1800 2    50   ~ 0
-~PAGEL
-Wire Wire Line
-	2750 3700 3500 3700
-Text Label 3500 3700 2    50   ~ 0
-~PAGEL
-Wire Wire Line
-	6500 3700 7250 3700
-Text Label 6500 3700 0    50   ~ 0
-GND
-Wire Wire Line
-	9000 3700 9750 3700
-Text Label 9000 3700 0    50   ~ 0
-GND
-Wire Wire Line
-	11000 5300 10250 5300
-Wire Wire Line
-	9750 5300 9000 5300
-Wire Wire Line
-	9750 4800 9000 4800
-Wire Wire Line
-	11000 4800 10250 4800
+	9500 2900 8750 2900
 $Comp
-L Connector_Generic:Conn_02x16_Counter_Clockwise U12
+L Connector_Generic:Conn_02x16_Counter_Clockwise U8
 U 1 1 636F97C7
-P 9950 5000
-F 0 "U12" H 10000 5917 50  0000 C CNN
-F 1 "512Kx8 FLASH CHR" H 10000 5826 50  0000 C CNN
-F 2 "" H 9950 5000 50  0001 C CNN
-F 3 "~" H 9950 5000 50  0001 C CNN
-	1    9950 5000
+P 8450 3100
+F 0 "U8" H 8500 4017 50  0000 C CNN
+F 1 "512Kx8 FLASH CHR" H 8500 3926 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 8450 3100 50  0001 C CNN
+F 3 "~" H 8450 3100 50  0001 C CNN
+	1    8450 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 2600 8500 2600
-Text Label 8500 2600 2    50   ~ 0
-+5V
-Wire Wire Line
-	7250 2600 6500 2600
-Text Label 6500 2600 0    50   ~ 0
-CM0_LE
-Wire Wire Line
-	9750 2600 9000 2600
-Text Label 9000 2600 0    50   ~ 0
-CM1_LE
-Wire Wire Line
-	10250 2600 11000 2600
-Text Label 11000 2600 2    50   ~ 0
-+5V
-Wire Wire Line
-	2250 2600 1500 2600
-Text Label 1500 2600 0    50   ~ 0
-PM0_LE
-Text Label 1500 3700 0    50   ~ 0
-GND
-Wire Wire Line
-	1500 3700 2250 3700
-Wire Wire Line
-	2750 2600 3500 2600
-Text Label 3500 2600 2    50   ~ 0
-+5V
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise U6
-U 1 1 686129B4
-P 4950 3100
-F 0 "U6" H 5000 3817 50  0000 C CNN
-F 1 "PRG MMU 1" H 5000 3726 50  0000 C CNN
-F 2 "" H 4950 3100 50  0001 C CNN
-F 3 "~" H 4950 3100 50  0001 C CNN
-	1    4950 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 3100 4750 3100
-Text Label 4000 3100 0    50   ~ 0
-CPU_D2
-Wire Wire Line
-	4000 3200 4750 3200
-Wire Wire Line
-	4000 3300 4750 3300
-Wire Wire Line
-	4000 3400 4750 3400
-Wire Wire Line
-	4000 3500 4750 3500
-Wire Wire Line
-	4000 3600 4750 3600
-Text Label 4000 3600 0    50   ~ 0
-CPU_D7
-Text Label 4000 3500 0    50   ~ 0
-CPU_D6
-Text Label 4000 3400 0    50   ~ 0
-CPU_D5
-Text Label 4000 3300 0    50   ~ 0
-CPU_D4
-Text Label 4000 3200 0    50   ~ 0
-CPU_D3
-Wire Wire Line
-	4750 2600 4000 2600
-Text Label 4000 2600 0    50   ~ 0
-PM1_LE
-Text Label 4000 3700 0    50   ~ 0
-GND
-Wire Wire Line
-	4000 3700 4750 3700
-Wire Wire Line
-	5250 2600 6000 2600
-Text Label 6000 2600 2    50   ~ 0
-+5V
-Wire Wire Line
-	4000 3000 4750 3000
-Wire Wire Line
-	4000 2900 4750 2900
-Wire Wire Line
-	4000 2800 4750 2800
-Text Label 4000 2800 0    50   ~ 0
-CPU_A12
-Text Label 4000 2900 0    50   ~ 0
-CPU_A13
-Text Label 4000 3000 0    50   ~ 0
-CPU_A14
-Wire Wire Line
-	4000 6600 4750 6600
-Wire Wire Line
-	4000 6700 4750 6700
-Wire Wire Line
-	4000 6800 4750 6800
-Text Label 4000 6800 0    50   ~ 0
-CPU_D2
-Text Label 4000 6700 0    50   ~ 0
-CPU_D1
-Text Label 4000 6600 0    50   ~ 0
-CPU_D0
-Wire Wire Line
-	4000 6900 4750 6900
-Wire Wire Line
-	4000 7200 4750 7200
-Wire Wire Line
-	4000 7300 4750 7300
-Wire Wire Line
-	4000 7400 4750 7400
-Wire Wire Line
-	4000 7500 4750 7500
-Text Label 4000 7500 0    50   ~ 0
-CPU_D7
-Text Label 4000 7400 0    50   ~ 0
-CPU_D6
-Text Label 4000 7300 0    50   ~ 0
-CPU_D5
-Text Label 4000 7200 0    50   ~ 0
-CPU_D4
-Text Label 4000 6900 0    50   ~ 0
-CPU_D3
-Wire Wire Line
-	4750 7100 4000 7100
-Text Label 4000 7100 0    50   ~ 0
-+5V
-Wire Wire Line
-	4000 7000 4750 7000
-Text Label 4000 7000 0    50   ~ 0
-GND
-Wire Wire Line
-	4750 7600 4000 7600
-Text Label 4000 7600 0    50   ~ 0
-+5V
-Wire Wire Line
-	4750 7700 4000 7700
-Text Label 4000 7700 0    50   ~ 0
-FDC_IRQ
-Wire Wire Line
-	4750 7800 4000 7800
-Wire Wire Line
-	4750 7900 4000 7900
-Text Label 4000 7900 0    50   ~ 0
-FLP_~TRK0
-Wire Wire Line
-	4750 8000 4000 8000
-Text Label 4000 8000 0    50   ~ 0
-FLP_~INDEX
-Wire Wire Line
-	4750 8100 4000 8100
-Text Label 4000 8100 0    50   ~ 0
-FLP_~WRTPRT
-Wire Wire Line
-	4750 8300 4000 8300
-Text Label 4000 8300 0    50   ~ 0
-+5V
-Wire Wire Line
-	4000 8200 4750 8200
-Text Label 4000 8200 0    50   ~ 0
-GND
-Text Label 4000 7800 0    50   ~ 0
+	12150 7350 11400 7350
+Text Label 11400 7350 0    50   ~ 0
 FDC_TC
 Wire Wire Line
-	6000 9500 5250 9500
-Wire Wire Line
-	7750 7700 8500 7700
-Text Label 8500 7700 2    50   ~ 0
-FLP_~TRK0
-Wire Wire Line
-	7750 6800 8500 6800
-Text Label 8500 6800 2    50   ~ 0
-FLP_~INDEX
-Wire Wire Line
-	7750 7800 8500 7800
-Text Label 8500 7800 2    50   ~ 0
-FLP_~WRTPRT
-Text Label 5250 9500 0    50   ~ 0
-FDC_TC
-Wire Wire Line
-	4750 8400 4000 8400
-Text Label 4000 8400 0    50   ~ 0
-FLP_~DSKCHG
-Wire Wire Line
-	4750 8500 4000 8500
-Text Label 4000 8500 0    50   ~ 0
-FLP_~RDATA
-Wire Wire Line
-	4750 8600 4000 8600
-Text Label 4000 8600 0    50   ~ 0
+	12150 7750 11400 7750
+Text Label 11400 7750 0    50   ~ 0
 FLP_DRVDEN0
 Wire Wire Line
-	4750 8700 4000 8700
-Text Label 4000 8700 0    50   ~ 0
+	12150 7850 11400 7850
+Text Label 11400 7850 0    50   ~ 0
 FLP_DRVDEN1
 Wire Wire Line
-	4750 8800 4000 8800
-Text Label 4000 8800 0    50   ~ 0
-FLP_DENSEL
-Wire Wire Line
-	5250 8800 6000 8800
-Text Label 6000 8800 2    50   ~ 0
+	12700 7900 13450 7900
+Text Label 13450 7900 2    50   ~ 0
 FLP_MEDIA_ID0
 Wire Wire Line
-	5250 8700 6000 8700
-Text Label 6000 8700 2    50   ~ 0
+	12700 7800 13450 7800
+Text Label 13450 7800 2    50   ~ 0
 FLP_MEDIA_ID1
 Wire Wire Line
-	5250 8600 6000 8600
-Text Label 6000 8600 2    50   ~ 0
-FLP_~WDATA
-Wire Wire Line
-	5250 8500 6000 8500
-Text Label 6000 8500 2    50   ~ 0
-FLP_~WGATE
-Wire Wire Line
-	5250 8400 6000 8400
-Text Label 6000 8400 2    50   ~ 0
-FLP_~HDSEL
-Wire Wire Line
-	5250 8100 6000 8100
-Text Label 6000 8100 2    50   ~ 0
-+5V
-Wire Wire Line
-	6000 8300 5250 8300
-Text Label 6000 8300 2    50   ~ 0
-GND
-Wire Wire Line
-	6000 9900 5250 9900
-Text Label 5250 9900 0    50   ~ 0
-FLP_DRVDEN0
-Wire Wire Line
-	6000 10000 5250 10000
-Text Label 5250 10000 0    50   ~ 0
-FLP_DRVDEN1
-Wire Wire Line
-	7750 6500 8500 6500
-Text Label 8500 6500 2    50   ~ 0
-FLP_DENSEL
-Wire Wire Line
-	6550 10050 7300 10050
-Text Label 7300 10050 2    50   ~ 0
-FLP_MEDIA_ID0
-Wire Wire Line
-	6550 9950 7300 9950
-Text Label 7300 9950 2    50   ~ 0
-FLP_MEDIA_ID1
-Wire Wire Line
-	7750 7500 8500 7500
-Text Label 8500 7500 2    50   ~ 0
-FLP_~WDATA
-Text Label 8500 7600 2    50   ~ 0
-FLP_~WGATE
-Wire Wire Line
-	7750 8000 8500 8000
-Text Label 8500 8000 2    50   ~ 0
-FLP_~HDSEL
-Wire Wire Line
-	5250 8200 6000 8200
-Text Label 6000 8200 2    50   ~ 0
-FLP_~STEP
-Wire Wire Line
-	5250 8000 6000 8000
-Text Label 6000 8000 2    50   ~ 0
-FLP_~DIR
-Wire Wire Line
-	5250 7900 6000 7900
-Text Label 6000 7900 2    50   ~ 0
-FLP_~MTR1
-Wire Wire Line
-	5250 7800 6000 7800
-Text Label 6000 7800 2    50   ~ 0
-FLP_~DS1
-Wire Wire Line
-	5250 7700 6000 7700
-Text Label 6000 7700 2    50   ~ 0
-FLP_~MTR0
-Wire Wire Line
-	5250 7600 6000 7600
-Text Label 6000 7600 2    50   ~ 0
-FLP_~DS0
-Wire Wire Line
-	5250 7500 6000 7500
-Text Label 6000 7500 2    50   ~ 0
-FDC_RST
-Wire Wire Line
-	6000 7200 5250 7200
-Text Label 6000 7200 2    50   ~ 0
-GND
-Wire Wire Line
-	5250 7100 6000 7100
-Text Label 6000 7100 2    50   ~ 0
-CPU_A2
-Wire Wire Line
-	5250 6900 6000 6900
-Wire Wire Line
-	5250 7000 6000 7000
-Text Label 6000 6900 2    50   ~ 0
-CPU_A0
-Text Label 6000 7000 2    50   ~ 0
-CPU_A1
-Wire Wire Line
-	6000 6800 5250 6800
-Text Label 6000 6800 2    50   ~ 0
-~FDCSEL
-Wire Wire Line
-	5250 6700 6000 6700
-Text Label 6000 6700 2    50   ~ 0
-~PRG_OE
-Wire Wire Line
-	5250 6600 6000 6600
-Text Label 6000 6600 2    50   ~ 0
-~PRG_WE
-Wire Wire Line
-	4750 6500 4000 6500
-Text Label 4000 6500 0    50   ~ 0
-+5V
-NoConn ~ 5250 7400
-NoConn ~ 5250 6500
-Wire Wire Line
-	6000 7300 5250 7300
-Text Label 6000 7300 2    50   ~ 0
-CLK24
-Wire Wire Line
-	7750 7300 8500 7300
-Text Label 8500 7300 2    50   ~ 0
-FLP_~DIR
-Wire Wire Line
-	7750 7200 8500 7200
-Text Label 8500 7200 2    50   ~ 0
-FLP_~MTR1
-Wire Wire Line
-	7750 7000 8500 7000
-Text Label 8500 7000 2    50   ~ 0
-FLP_~DS1
-Wire Wire Line
-	7750 6900 8500 6900
-Text Label 8500 6900 2    50   ~ 0
-FLP_~MTR0
-Text Label 8500 7100 2    50   ~ 0
-FLP_~DS0
-Wire Wire Line
-	7750 7400 8500 7400
-Text Label 8500 7400 2    50   ~ 0
-FLP_~STEP
-NoConn ~ 7750 6600
-NoConn ~ 7750 6700
-Wire Wire Line
-	6000 9400 5250 9400
-Text Label 5250 9400 0    50   ~ 0
+	12150 7250 11400 7250
+Text Label 11400 7250 0    50   ~ 0
 FDC_IRQ
 Wire Wire Line
-	7750 8100 8500 8100
-Text Label 8500 8100 2    50   ~ 0
-FLP_~DSKCHG
+	6000 3500 5250 3500
 Wire Wire Line
-	7750 7900 8500 7900
-Text Label 8500 7900 2    50   ~ 0
-FLP_~RDATA
+	6000 3300 5250 3300
 Wire Wire Line
-	7750 7600 8500 7600
+	6000 3200 5250 3200
 Wire Wire Line
-	7750 7100 8500 7100
-$Comp
-L Connector_Generic:Conn_02x17_Odd_Even J2
-U 1 1 63665F44
-P 7450 7300
-F 0 "J2" H 7500 8317 50  0000 C CNN
-F 1 "Floppy" H 7500 8226 50  0000 C CNN
-F 2 "" H 7450 7300 50  0001 C CNN
-F 3 "~" H 7450 7300 50  0001 C CNN
-	1    7450 7300
-	1    0    0    -1  
-$EndComp
+	6000 3100 5250 3100
 Wire Wire Line
-	6500 6500 7250 6500
-Text Label 6500 6500 0    50   ~ 0
-GND
+	6000 3000 5250 3000
 Wire Wire Line
-	6500 6600 7250 6600
-Text Label 6500 6600 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 6700 7250 6700
-Text Label 6500 6700 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 6800 7250 6800
-Text Label 6500 6800 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 6900 7250 6900
-Text Label 6500 6900 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7000 7250 7000
-Text Label 6500 7000 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7100 7250 7100
-Text Label 6500 7100 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7200 7250 7200
-Text Label 6500 7200 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7300 7250 7300
-Text Label 6500 7300 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7400 7250 7400
-Text Label 6500 7400 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7500 7250 7500
-Text Label 6500 7500 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7600 7250 7600
-Text Label 6500 7600 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7700 7250 7700
-Text Label 6500 7700 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7800 7250 7800
-Text Label 6500 7800 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 7900 7250 7900
-Text Label 6500 7900 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 8000 7250 8000
-Text Label 6500 8000 0    50   ~ 0
-GND
-Wire Wire Line
-	6500 8100 7250 8100
-Text Label 6500 8100 0    50   ~ 0
-GND
-Wire Wire Line
-	1500 1600 2250 1600
-Text Label 1500 1600 0    50   ~ 0
-~MMUSEL
-Wire Wire Line
-	2750 1500 3500 1500
-Text Label 3500 1500 2    50   ~ 0
-PM1_LE
-Wire Wire Line
-	7250 5400 6500 5400
-Wire Wire Line
-	7250 5200 6500 5200
-Wire Wire Line
-	7250 5100 6500 5100
-Wire Wire Line
-	7250 5000 6500 5000
-Wire Wire Line
-	7250 4900 6500 4900
-Wire Wire Line
-	7250 5700 6500 5700
-Wire Wire Line
-	7250 5600 6500 5600
-Wire Wire Line
-	7250 5500 6500 5500
-Text Label 6500 5700 0    50   ~ 0
-PPU_D2
-Text Label 6500 5600 0    50   ~ 0
-PPU_D1
-Text Label 6500 5500 0    50   ~ 0
-PPU_D0
-Text Label 6500 5400 0    50   ~ 0
-PPU_A0
-Text Label 6500 5300 0    50   ~ 0
-PPU_A1
-Text Label 6500 5200 0    50   ~ 0
-PPU_A2
-Text Label 6500 5100 0    50   ~ 0
-PPU_A3
-Text Label 6500 5000 0    50   ~ 0
-PPU_A4
-Text Label 6500 4900 0    50   ~ 0
-PPU_A5
-Text Label 6500 4800 0    50   ~ 0
-PPU_A6
-Wire Wire Line
-	6500 4700 7250 4700
-Text Label 6500 4700 0    50   ~ 0
-PPU_A7
-Wire Wire Line
-	7250 4300 6500 4300
-Text Label 6500 4300 0    50   ~ 0
-PMU_A18
-Wire Wire Line
-	7250 4400 6500 4400
-Text Label 6500 4400 0    50   ~ 0
-PMU_A16
-Wire Wire Line
-	7750 4400 8500 4400
-Text Label 8500 4400 2    50   ~ 0
-PMU_A15
-Wire Wire Line
-	7250 4600 6500 4600
-Text Label 6500 4600 0    50   ~ 0
-PMU_A12
-Wire Wire Line
-	7250 5300 6500 5300
-Wire Wire Line
-	7250 4800 6500 4800
-Wire Wire Line
-	7750 5800 8500 5800
-Text Label 8500 5800 2    50   ~ 0
-PPU_D3
-Wire Wire Line
-	8500 5700 7750 5700
-Wire Wire Line
-	8500 5600 7750 5600
-Wire Wire Line
-	8500 5500 7750 5500
-Wire Wire Line
-	8500 5400 7750 5400
-Wire Wire Line
-	8500 5000 7750 5000
-Wire Wire Line
-	8500 5200 7750 5200
-Wire Wire Line
-	8500 4900 7750 4900
-Text Label 8500 4800 2    50   ~ 0
-PPU_A8
-Text Label 8500 4900 2    50   ~ 0
-PPU_A9
-Text Label 8500 5200 2    50   ~ 0
-PPU_A10
-Text Label 8500 5000 2    50   ~ 0
-PPU_A11
-Text Label 8500 5300 2    50   ~ 0
-PPU_A13
-Text Label 8500 5400 2    50   ~ 0
-PPU_D7
-Text Label 8500 5500 2    50   ~ 0
-PPU_D6
-Text Label 8500 5600 2    50   ~ 0
-PPU_D5
-Text Label 8500 5700 2    50   ~ 0
-PPU_D4
-Wire Wire Line
-	7750 5100 8500 5100
-Text Label 8500 5100 2    50   ~ 0
-PPU_~RD
-Wire Wire Line
-	8500 4600 7750 4600
-Text Label 8500 4600 2    50   ~ 0
-PPU_~WR
-Wire Wire Line
-	7750 4700 8500 4700
-Text Label 8500 4700 2    50   ~ 0
-PMU_A13
-Text Label 6500 4500 0    50   ~ 0
-PMU_A14
-Wire Wire Line
-	7250 4500 6500 4500
-Wire Wire Line
-	7750 4500 8500 4500
-Text Label 8500 4500 2    50   ~ 0
-PMU_A17
-Wire Wire Line
-	8500 5300 7750 5300
-Wire Wire Line
-	8500 4800 7750 4800
-Text Label 6000 5100 2    50   ~ 0
-~PRG_OE
-Wire Wire Line
-	9000 6400 9750 6400
-Text Label 9000 6400 0    50   ~ 0
-PPU_A10
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 6BD5C5B9
-P 9950 6500
-F 0 "J4" H 10030 6542 50  0000 L CNN
-F 1 "PPU Mirror X/Y" H 10030 6451 50  0000 L CNN
-F 2 "" H 9950 6500 50  0001 C CNN
-F 3 "~" H 9950 6500 50  0001 C CNN
-	1    9950 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J5
-U 1 1 6BD5D37A
-P 9950 6950
-F 0 "J5" H 10030 6992 50  0000 L CNN
-F 1 "PPU Nametable RAM" H 10030 6901 50  0000 L CNN
-F 2 "" H 9950 6950 50  0001 C CNN
-F 3 "~" H 9950 6950 50  0001 C CNN
-	1    9950 6950
-	1    0    0    -1  
-$EndComp
-Text Label 6000 3500 2    50   ~ 0
-MMU_A19
-Wire Wire Line
-	5250 3500 6000 3500
-Text Label 6000 2800 2    50   ~ 0
-MMU_A12
-Wire Wire Line
-	5250 2800 6000 2800
-Text Label 6000 2900 2    50   ~ 0
-MMU_A13
-Wire Wire Line
-	5250 2900 6000 2900
-Text Label 6000 3000 2    50   ~ 0
-MMU_A14
-Wire Wire Line
-	5250 3000 6000 3000
-Text Label 6000 3100 2    50   ~ 0
-MMU_A15
-Wire Wire Line
-	5250 3100 6000 3100
-Text Label 6000 3200 2    50   ~ 0
-MMU_A16
-Wire Wire Line
-	5250 3200 6000 3200
-Text Label 6000 3300 2    50   ~ 0
-MMU_A17
-Wire Wire Line
-	5250 3300 6000 3300
-Text Label 6000 3400 2    50   ~ 0
-MMU_A18
-Wire Wire Line
-	5250 3400 6000 3400
-Wire Wire Line
-	9000 6600 9750 6600
-Text Label 9000 6600 0    50   ~ 0
-PPU_A11
-Wire Wire Line
-	2250 1700 1500 1700
-Text Label 1500 1700 0    50   ~ 0
-CPU_A2
-Text Label 4000 2700 0    50   ~ 0
-~ROMSEL
-Wire Wire Line
-	4000 2700 4750 2700
-Text Label 1500 3600 0    50   ~ 0
-GND
-Wire Wire Line
-	1500 3600 2250 3600
-Text Label 1500 2700 0    50   ~ 0
-GND
-Wire Wire Line
-	1500 2700 2250 2700
-Text Label 6000 3700 2    50   ~ 0
-GND
+	6000 3800 5250 3800
 Wire Wire Line
 	6000 3700 5250 3700
 Wire Wire Line
-	6000 2700 5250 2700
-Text Label 6000 2700 2    50   ~ 0
-M2
-Text Label 3500 2700 2    50   ~ 0
-GND
-Wire Wire Line
-	3500 2700 2750 2700
-Text Label 6000 3600 2    50   ~ 0
-GND
-Wire Wire Line
 	6000 3600 5250 3600
-Text Label 3500 3600 2    50   ~ 0
+Text Label 5250 3800 0    50   ~ 0
+PPU_D2
+Text Label 5250 3700 0    50   ~ 0
+PPU_D1
+Text Label 5250 3600 0    50   ~ 0
+PPU_D0
+Text Label 5250 3500 0    50   ~ 0
+PPU_A0
+Text Label 5250 3400 0    50   ~ 0
+PPU_A1
+Text Label 5250 3300 0    50   ~ 0
+PPU_A2
+Text Label 5250 3200 0    50   ~ 0
+PPU_A3
+Text Label 5250 3100 0    50   ~ 0
+PPU_A4
+Text Label 5250 3000 0    50   ~ 0
+PPU_A5
+Text Label 5250 2900 0    50   ~ 0
+PPU_A6
+Wire Wire Line
+	5250 2800 6000 2800
+Text Label 5250 2800 0    50   ~ 0
+PPU_A7
+Wire Wire Line
+	6000 2400 5250 2400
+Text Label 5250 2400 0    50   ~ 0
+PMU_A18
+Wire Wire Line
+	6000 2500 5250 2500
+Text Label 5250 2500 0    50   ~ 0
+PMU_A16
+Wire Wire Line
+	6500 2500 7250 2500
+Text Label 7250 2500 2    50   ~ 0
+PMU_A15
+Wire Wire Line
+	6000 2700 5250 2700
+Text Label 5250 2700 0    50   ~ 0
+PMU_A12
+Wire Wire Line
+	6000 3400 5250 3400
+Wire Wire Line
+	6000 2900 5250 2900
+Wire Wire Line
+	6500 3900 7250 3900
+Text Label 7250 3900 2    50   ~ 0
+PPU_D3
+Wire Wire Line
+	7250 3800 6500 3800
+Wire Wire Line
+	7250 3700 6500 3700
+Wire Wire Line
+	7250 3600 6500 3600
+Wire Wire Line
+	7250 3500 6500 3500
+Wire Wire Line
+	7250 3100 6500 3100
+Wire Wire Line
+	7250 3300 6500 3300
+Wire Wire Line
+	7250 3000 6500 3000
+Text Label 7250 2900 2    50   ~ 0
+PPU_A8
+Text Label 7250 3000 2    50   ~ 0
+PPU_A9
+Text Label 7250 3300 2    50   ~ 0
+PPU_A10
+Text Label 7250 3100 2    50   ~ 0
+PPU_A11
+Text Label 7250 3400 2    50   ~ 0
+~CHR_RAM_CE
+Text Label 7250 3500 2    50   ~ 0
+PPU_D7
+Text Label 7250 3600 2    50   ~ 0
+PPU_D6
+Text Label 7250 3700 2    50   ~ 0
+PPU_D5
+Text Label 7250 3800 2    50   ~ 0
+PPU_D4
+Wire Wire Line
+	6500 3200 7250 3200
+Text Label 7250 3200 2    50   ~ 0
+PPU_~RD
+Wire Wire Line
+	7250 2700 6500 2700
+Text Label 7250 2700 2    50   ~ 0
+PPU_~WR
+Wire Wire Line
+	6500 2800 7250 2800
+Text Label 7250 2800 2    50   ~ 0
+PMU_A13
+Text Label 5250 2600 0    50   ~ 0
+PMU_A14
+Wire Wire Line
+	6000 2600 5250 2600
+Wire Wire Line
+	6500 2600 7250 2600
+Text Label 7250 2600 2    50   ~ 0
+PMU_A17
+Wire Wire Line
+	7250 3400 6500 3400
+Wire Wire Line
+	7250 2900 6500 2900
+Text Label 5000 3150 2    50   ~ 0
+~PRG_OE
+$Comp
+L atf1508:ATF1508 U3
+U 1 1 67E6DAA0
+P 7800 7900
+F 0 "U3" H 7775 10031 50  0000 C CNN
+F 1 "ATF1508" H 7775 9940 50  0000 C CNN
+F 2 "Package_LCC:PLCC-84" H 7850 10000 50  0001 C CNN
+F 3 "" H 7850 10000 50  0001 C CNN
+	1    7800 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5650 7800 5650
+Text Label 7050 5650 0    50   ~ 0
++5V
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 67F2B1F3
+P 11750 9850
+F 0 "J6" H 11830 9842 50  0000 L CNN
+F 1 "JTAG" H 11830 9751 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 11750 9850 50  0001 C CNN
+F 3 "~" H 11750 9850 50  0001 C CNN
+	1    11750 9850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 10150 11550 10150
+Text Label 10800 10150 0    50   ~ 0
+GND
+Text Label 6900 9950 0    50   ~ 0
 GND
 Wire Wire Line
-	3500 3600 2750 3600
-Text Label 6500 3600 0    50   ~ 0
+	7800 9800 7800 9950
+Wire Wire Line
+	6900 9950 7800 9950
+Wire Wire Line
+	7800 5950 7800 5650
+Wire Wire Line
+	10800 9950 11550 9950
+Wire Wire Line
+	10800 9850 11550 9850
+Wire Wire Line
+	10800 9750 11550 9750
+Wire Wire Line
+	10800 10050 11550 10050
+Wire Wire Line
+	10800 9650 11550 9650
+Text Label 10800 9650 0    50   ~ 0
++5V
+Text Label 10800 10050 0    50   ~ 0
+TDI
+Text Label 10800 9750 0    50   ~ 0
+TMS
+Text Label 10800 9850 0    50   ~ 0
+TCK
+Text Label 10800 9950 0    50   ~ 0
+TDO
+Wire Wire Line
+	9300 7550 8550 7550
+Text Label 9300 7550 2    50   ~ 0
+CPU_D7
+Wire Wire Line
+	9300 6450 8550 6450
+Text Label 9300 6450 2    50   ~ 0
+M2
+Wire Wire Line
+	6250 9350 7000 9350
+Text Label 6250 9350 0    50   ~ 0
+~IOSEL0
+Wire Wire Line
+	6250 9450 7000 9450
+Text Label 6250 9450 0    50   ~ 0
+~IOSEL1
+Wire Wire Line
+	9300 9250 8550 9250
+Text Label 9300 9250 2    50   ~ 0
+~IOSEL2
+Wire Wire Line
+	6250 9250 7000 9250
+Text Label 6250 9250 0    50   ~ 0
+~DEVSEL0
+Wire Wire Line
+	6250 9550 7000 9550
+Text Label 6250 9550 0    50   ~ 0
+~DEVSEL1
+Wire Wire Line
+	9300 9450 8550 9450
+Text Label 9300 9450 2    50   ~ 0
+~DEVSEL2
+Wire Wire Line
+	6250 8450 7000 8450
+Text Label 6250 8450 0    50   ~ 0
+~FDCSEL
+Wire Wire Line
+	7000 7550 6250 7550
+Text Label 6250 7550 0    50   ~ 0
+PMU_A17
+Wire Wire Line
+	7000 7450 6250 7450
+Text Label 6250 7450 0    50   ~ 0
+PMU_A16
+Wire Wire Line
+	7000 7650 6250 7650
+Text Label 6250 7650 0    50   ~ 0
+PMU_A15
+Wire Wire Line
+	7000 7950 6250 7950
+Text Label 6250 7950 0    50   ~ 0
+PMU_A13
+Wire Wire Line
+	7000 7850 6250 7850
+Text Label 6250 7850 0    50   ~ 0
+PMU_A12
+Text Label 6250 7750 0    50   ~ 0
+PMU_A14
+Wire Wire Line
+	7000 7750 6250 7750
+Wire Wire Line
+	6250 8950 7000 8950
+Text Label 6250 8950 0    50   ~ 0
+PPU_A12
+Wire Wire Line
+	6250 8150 7000 8150
+Text Label 6250 8150 0    50   ~ 0
+~RAM_CE
+Wire Wire Line
+	6250 6750 7000 6750
+Text Label 6250 6750 0    50   ~ 0
+~ROM_CE
+Wire Wire Line
+	7000 9150 6250 9150
+Text Label 6250 9150 0    50   ~ 0
+~CHR_RAM_CE
+Text Label 6250 9050 0    50   ~ 0
+~CHR_ROM_CE
+Wire Wire Line
+	6250 9050 7000 9050
+Wire Wire Line
+	7000 6550 6250 6550
+Text Label 6250 6550 0    50   ~ 0
+~PRG_OE
+Wire Wire Line
+	8550 9150 9300 9150
+Text Label 9300 9150 2    50   ~ 0
+~PRG_WE
+Wire Wire Line
+	6250 8650 7000 8650
+Text Label 6250 8650 0    50   ~ 0
+CIRAM_~CE
+Wire Wire Line
+	7000 8350 6250 8350
+Text Label 6250 8350 0    50   ~ 0
+FDC_RST
+Wire Wire Line
+	9300 7350 8550 7350
+Wire Wire Line
+	9300 7150 8550 7150
+Wire Wire Line
+	9300 7050 8550 7050
+Text Label 9300 7050 2    50   ~ 0
+CPU_A12
+Text Label 9300 7150 2    50   ~ 0
+CPU_A13
+Text Label 9300 7350 2    50   ~ 0
+CPU_A14
+Wire Wire Line
+	9300 8850 8550 8850
+Wire Wire Line
+	9300 9050 8550 9050
+Wire Wire Line
+	9300 8650 8550 8650
+Text Label 9300 8650 2    50   ~ 0
+CPU_D2
+Text Label 9300 9050 2    50   ~ 0
+CPU_D1
+Text Label 9300 8850 2    50   ~ 0
+CPU_D0
+Wire Wire Line
+	9300 8450 8550 8450
+Wire Wire Line
+	9300 8250 8550 8250
+Wire Wire Line
+	9300 7950 8550 7950
+Wire Wire Line
+	9300 7750 8550 7750
+Text Label 9300 7750 2    50   ~ 0
+CPU_D6
+Text Label 9300 7950 2    50   ~ 0
+CPU_D5
+Text Label 9300 8250 2    50   ~ 0
+CPU_D4
+Text Label 9300 8450 2    50   ~ 0
+CPU_D3
+Wire Wire Line
+	8550 6550 9300 6550
+Wire Wire Line
+	7000 6650 6250 6650
+Wire Wire Line
+	7000 6450 6250 6450
+Text Label 9300 6550 2    50   ~ 0
+CPU_A9
+Text Label 6250 6650 0    50   ~ 0
+CPU_A10
+Text Label 6250 6450 0    50   ~ 0
+CPU_A11
+Wire Wire Line
+	8550 6650 9300 6650
+Text Label 9300 6650 2    50   ~ 0
+CPU_A8
+Wire Wire Line
+	6250 8250 7000 8250
+Text Label 6250 8250 0    50   ~ 0
+~ROMSEL
+Text Label 6250 7050 0    50   ~ 0
+MMU_A12
+Wire Wire Line
+	7000 7050 6250 7050
+Text Label 9300 6750 2    50   ~ 0
+MMU_A13
+Wire Wire Line
+	8550 6750 9300 6750
+Text Label 9300 6850 2    50   ~ 0
+MMU_A14
+Wire Wire Line
+	8550 6850 9300 6850
+Text Label 6250 7150 0    50   ~ 0
+MMU_A15
+Wire Wire Line
+	7000 7150 6250 7150
+Text Label 6250 6950 0    50   ~ 0
+MMU_A16
+Wire Wire Line
+	7000 6950 6250 6950
+Text Label 9300 6950 2    50   ~ 0
+MMU_A17
+Wire Wire Line
+	8550 6950 9300 6950
+Text Label 6250 6850 0    50   ~ 0
+MMU_A18
+Wire Wire Line
+	7000 6850 6250 6850
+Wire Wire Line
+	7000 7350 6250 7350
+Text Label 6250 7350 0    50   ~ 0
+PMU_A18
+Wire Wire Line
+	6250 8850 7000 8850
+Text Label 6250 8850 0    50   ~ 0
+PPU_A13
+Wire Wire Line
+	9300 6350 8550 6350
+Text Label 9300 6350 2    50   ~ 0
+SYSCLK
+Wire Wire Line
+	7000 8750 6250 8750
+Text Label 6250 8750 0    50   ~ 0
+CPU_R~W
+Wire Wire Line
+	9300 7250 8550 7250
+Wire Wire Line
+	9300 8050 8550 8050
+Wire Wire Line
+	6250 8050 7000 8050
+Wire Wire Line
+	6250 7250 7000 7250
+Text Label 6250 7250 0    50   ~ 0
+TDI
+Text Label 6250 8050 0    50   ~ 0
+TMS
+Text Label 9300 8050 2    50   ~ 0
+TCK
+Text Label 9300 7250 2    50   ~ 0
+TDO
+$Comp
+L Device:CP1 C1
+U 1 1 6ED7805E
+P 2200 6500
+F 0 "C1" H 2315 6546 50  0000 L CNN
+F 1 "0.1uF" H 2315 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2200 6500 50  0001 C CNN
+F 3 "~" H 2200 6500 50  0001 C CNN
+	1    2200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 6EDE0374
+P 2650 6500
+F 0 "C2" H 2765 6546 50  0000 L CNN
+F 1 "0.1uF" H 2765 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2650 6500 50  0001 C CNN
+F 3 "~" H 2650 6500 50  0001 C CNN
+	1    2650 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C3
+U 1 1 6EDE072C
+P 3100 6500
+F 0 "C3" H 3215 6546 50  0000 L CNN
+F 1 "0.1uF" H 3215 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3100 6500 50  0001 C CNN
+F 3 "~" H 3100 6500 50  0001 C CNN
+	1    3100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 6EDE0D43
+P 3550 6500
+F 0 "C4" H 3665 6546 50  0000 L CNN
+F 1 "0.1uF" H 3665 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3550 6500 50  0001 C CNN
+F 3 "~" H 3550 6500 50  0001 C CNN
+	1    3550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 6EDE1030
+P 4000 6500
+F 0 "C5" H 4115 6546 50  0000 L CNN
+F 1 "0.1uF" H 4115 6455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4000 6500 50  0001 C CNN
+F 3 "~" H 4000 6500 50  0001 C CNN
+	1    4000 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6350 2200 6050
+Wire Wire Line
+	2200 6050 2650 6050
+Wire Wire Line
+	4000 6050 4000 6350
+Wire Wire Line
+	3550 6350 3550 6050
+Connection ~ 3550 6050
+Wire Wire Line
+	3550 6050 4000 6050
+Wire Wire Line
+	3100 6350 3100 6050
+Connection ~ 3100 6050
+Wire Wire Line
+	3100 6050 3550 6050
+Wire Wire Line
+	2650 6350 2650 6050
+Connection ~ 2650 6050
+Wire Wire Line
+	2650 6050 3100 6050
+Wire Wire Line
+	4000 6650 4000 6950
+Wire Wire Line
+	4000 6950 3550 6950
+Wire Wire Line
+	2200 6950 2200 6650
+Wire Wire Line
+	2650 6650 2650 6950
+Connection ~ 2650 6950
+Wire Wire Line
+	2650 6950 2200 6950
+Wire Wire Line
+	3100 6650 3100 6950
+Connection ~ 3100 6950
+Wire Wire Line
+	3100 6950 2650 6950
+Wire Wire Line
+	3550 6650 3550 6950
+Connection ~ 3550 6950
+Wire Wire Line
+	3550 6950 3100 6950
+Wire Wire Line
+	1450 6050 2200 6050
+Text Label 1450 6050 0    50   ~ 0
++5V
+Text Label 1450 6950 0    50   ~ 0
 GND
 Wire Wire Line
-	6500 3600 7250 3600
-Text Label 6500 2700 0    50   ~ 0
+	1450 6950 2200 6950
+Connection ~ 2200 6950
+Connection ~ 2200 6050
+$Comp
+L Device:CP1 C6
+U 1 1 6F15B013
+P 2200 7850
+F 0 "C6" H 2315 7896 50  0000 L CNN
+F 1 "0.1uF" H 2315 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2200 7850 50  0001 C CNN
+F 3 "~" H 2200 7850 50  0001 C CNN
+	1    2200 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C7
+U 1 1 6F15B019
+P 2650 7850
+F 0 "C7" H 2765 7896 50  0000 L CNN
+F 1 "0.1uF" H 2765 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2650 7850 50  0001 C CNN
+F 3 "~" H 2650 7850 50  0001 C CNN
+	1    2650 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C8
+U 1 1 6F15B01F
+P 3100 7850
+F 0 "C8" H 3215 7896 50  0000 L CNN
+F 1 "0.1uF" H 3215 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3100 7850 50  0001 C CNN
+F 3 "~" H 3100 7850 50  0001 C CNN
+	1    3100 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C9
+U 1 1 6F15B025
+P 3550 7850
+F 0 "C9" H 3665 7896 50  0000 L CNN
+F 1 "0.1uF" H 3665 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3550 7850 50  0001 C CNN
+F 3 "~" H 3550 7850 50  0001 C CNN
+	1    3550 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C10
+U 1 1 6F15B02B
+P 4000 7850
+F 0 "C10" H 4115 7896 50  0000 L CNN
+F 1 "0.1uF" H 4115 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4000 7850 50  0001 C CNN
+F 3 "~" H 4000 7850 50  0001 C CNN
+	1    4000 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 7700 2200 7400
+Wire Wire Line
+	2200 7400 2650 7400
+Wire Wire Line
+	4000 7400 4000 7700
+Wire Wire Line
+	3550 7700 3550 7400
+Connection ~ 3550 7400
+Wire Wire Line
+	3550 7400 4000 7400
+Wire Wire Line
+	3100 7700 3100 7400
+Connection ~ 3100 7400
+Wire Wire Line
+	3100 7400 3550 7400
+Wire Wire Line
+	2650 7700 2650 7400
+Connection ~ 2650 7400
+Wire Wire Line
+	2650 7400 3100 7400
+Wire Wire Line
+	4000 8000 4000 8300
+Wire Wire Line
+	4000 8300 3550 8300
+Wire Wire Line
+	2200 8300 2200 8000
+Wire Wire Line
+	2650 8000 2650 8300
+Connection ~ 2650 8300
+Wire Wire Line
+	2650 8300 2200 8300
+Wire Wire Line
+	3100 8000 3100 8300
+Connection ~ 3100 8300
+Wire Wire Line
+	3100 8300 2650 8300
+Wire Wire Line
+	3550 8000 3550 8300
+Connection ~ 3550 8300
+Wire Wire Line
+	3550 8300 3100 8300
+Wire Wire Line
+	1450 7400 2200 7400
+Text Label 1450 7400 0    50   ~ 0
++5V
+Text Label 1450 8300 0    50   ~ 0
 GND
 Wire Wire Line
-	6500 2700 7250 2700
-Text Label 9000 2700 0    50   ~ 0
-GND
+	1450 8300 2200 8300
+Connection ~ 2200 8300
+Connection ~ 2200 7400
+Text Label 9300 9350 2    50   ~ 0
+~DEVSEL3
 Wire Wire Line
-	9000 2700 9750 2700
-Text Label 11000 2700 2    50   ~ 0
-GND
+	9300 9350 8550 9350
+Text Label 9300 9550 2    50   ~ 0
+~IOSEL3
 Wire Wire Line
-	11000 2700 10250 2700
-Text Label 11000 3600 2    50   ~ 0
-GND
+	9300 9550 8550 9550
 Wire Wire Line
-	11000 3600 10250 3600
-Text Label 8500 3600 2    50   ~ 0
-GND
+	8550 8950 9300 8950
 Wire Wire Line
-	8500 3600 7750 3600
-Text Label 8500 2700 2    50   ~ 0
-GND
+	8550 8750 9300 8750
 Wire Wire Line
-	8500 2700 7750 2700
+	8550 8550 9300 8550
+Wire Wire Line
+	8550 8350 9300 8350
+Text Label 9300 8950 2    50   ~ 0
+CPU_A0
+Text Label 9300 8750 2    50   ~ 0
+CPU_A1
+Text Label 9300 8550 2    50   ~ 0
+CPU_A2
+Text Label 9300 8350 2    50   ~ 0
+CPU_A3
+Text Label 9300 7850 2    50   ~ 0
+CPU_A5
+Text Label 9300 8150 2    50   ~ 0
+CPU_A4
+Wire Wire Line
+	8550 8150 9300 8150
+Wire Wire Line
+	8550 7650 9300 7650
+Wire Wire Line
+	8550 7850 9300 7850
+Wire Wire Line
+	8550 7450 9300 7450
+Text Label 9300 7650 2    50   ~ 0
+CPU_A6
+Text Label 9300 7450 2    50   ~ 0
+CPU_A7
+$Sheet
+S 21600 700  11000 9900
+U 75E32237
+F0 "FDC" 50
+F1 "FDC.sch" 50
+$EndSheet
 $EndSCHEMATC
