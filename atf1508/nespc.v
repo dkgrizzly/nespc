@@ -38,6 +38,7 @@ module nespc(
    ,output wire         CHR_RAM_nCE
    ,output wire         CHR_ROM_nCE
    ,output wire         CI_RAM_nCE
+   ,output wire         CI_RAM_A10
    ,output wire         FDC_RST
 );
 
@@ -51,44 +52,58 @@ assign FDC_RST = ({!M2, !nROMSEL, CPU_A[14:0]} == 17'h04050);
 // $5000-$5FFF
 wire PAGEL =  { M2, nROMSEL, CPU_A[14:12] } == 5'b11101;
 
-// $6000-$FFFF
+// $6000-$EFFF
 wire PAGEH = ({ M2, nROMSEL, CPU_A[14:13] } == 4'b1111) || !nROMSEL;
+
+// $F000-$FFFF
+wire PAGEF = ({ nROMSEL, CPU_A[14:12 } == 4'b0111);
 
 reg [7:0] CPU_WIN0 = 8'h7f;
 reg [7:0] CPU_WIN1 = 8'h7f;
+reg [7:0] CPU_WIN2 = 8'h7f;
 reg [7:0] PPU_WIN0 = 8'h7f;
 reg [7:0] PPU_WIN1 = 8'h7f;
 reg [7:0] PPU_WIN2 = 8'h7f;
+reg       PPU_WIN3 = 1'b1;
 
 assign PMU_A[6:0] = PPU_A13 ? (PPU_A12 ? 7'h7f : PPU_WIN2[6:0]) : (PPU_A12 ? PPU_WIN1[6:0] : PPU_WIN0[6:0]);
 assign CHR_ROM_nCE = PPU_A13 ? (PPU_A12 ? 1'b1 : PPU_WIN2[7]) : (PPU_A12 ? PPU_WIN1[7] : PPU_WIN0[7]);
 assign CHR_RAM_nCE = PPU_A13 ? (PPU_A12 ? 1'b1 : PPU_WIN2[7]) : (PPU_A12 ? PPU_WIN1[7] : PPU_WIN0[7]);
 assign CI_RAM_nCE = (PPU_A13 && PPU_A12) ? 1'b0 : 1'b1;
+assign CI_RAM_A10 = PPU_WIN3;
 
-assign MMU_A[6:0] = PAGEH ? CPU_WIN0[6:0] : (PAGEL ? (CPU_WIN1[6:0] + { 4'b0, CPU_A[14:12] }) : 7'h7f);
-assign PRG_ROM_nCE = PAGEH ? !CPU_WIN0[7] : (PAGEL ? !CPU_WIN1[7] : 1'b1);
-assign PRG_RAM_nCE = PAGEH ?  CPU_WIN0[7] : (PAGEL ?  CPU_WIN1[7] : 1'b1);
+assign MMU_A[6:0]  = PAGEF ? CPU_WIN2[6:0] : (PAGEH ? CPU_WIN0[6:0] : (PAGEL ? (CPU_WIN1[6:0] + { 4'b0, CPU_A[14:12] }) : 7'h7f));
+assign PRG_ROM_nCE = PAGEF ?  !CPU_WIN2[7] : (PAGEH ?  !CPU_WIN0[7] : (PAGEL ? !CPU_WIN1[7]                             : 1'b1));
+assign PRG_RAM_nCE = PAGEF ?   CPU_WIN2[7] : (PAGEH ?   CPU_WIN0[7] : (PAGEL ?  CPU_WIN1[7]                             : 1'b1));
 
 always @ (posedge SYSCLK) begin
     // $4020: MMU Register for CPU Bus $5000-$5FFF
     if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04020) begin
        CPU_WIN0 <= CPU_D;
     end
-    // $42xx: MMU Register for CPU Bus $6000-$FFFF
+    // $4021: MMU Register for CPU Bus $6000-$FFFF
     if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04021) begin
        CPU_WIN1 <= CPU_D;
     end
-    // $43xx: MMU Register for PPU Bus $0000-$0FFF
+    // $4022: MMU Register for CPU Bus $6000-$FFFF
+    if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04022) begin
+       CPU_WIN2 <= CPU_D;
+    end
+    // $4030: MMU Register for PPU Bus $0000-$0FFF
     if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04030) begin
        PPU_WIN0 <= CPU_D;
     end
-    // $44xx: MMU Register for PPU Bus $1000-$1FFF
+    // $4031: MMU Register for PPU Bus $1000-$1FFF
     if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04031) begin
        PPU_WIN1 <= CPU_D;
     end
-    // $45xx: MMU Register for PPU Bus $2000-$2FFF
+    // $4032: MMU Register for PPU Bus $2000-$2FFF
     if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04032) begin
        PPU_WIN2 <= CPU_D;
+    end
+    // $4033: MMU Register for PPU Bus $3000-$3EFF
+    if({CPU_nWR, !M2, !nROMSEL, CPU_A[14:0]} == 18'h04033) begin
+       PPU_WIN3 <= CPU_D[0];
     end
 
     case({!M2, !nROMSEL, CPU_A[14:8]})

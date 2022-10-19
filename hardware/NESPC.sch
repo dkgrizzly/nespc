@@ -1113,20 +1113,20 @@ Wire Wire Line
 Wire Wire Line
 	10800 9950 11550 9950
 Wire Wire Line
+	10800 10050 11550 10050
+Wire Wire Line
 	10800 9850 11550 9850
 Wire Wire Line
 	10800 9750 11550 9750
 Wire Wire Line
-	10800 10050 11550 10050
-Wire Wire Line
 	10800 9650 11550 9650
 Text Label 10800 9650 0    50   ~ 0
 +5V
-Text Label 10800 10050 0    50   ~ 0
-TDI
 Text Label 10800 9750 0    50   ~ 0
-TMS
+TDI
 Text Label 10800 9850 0    50   ~ 0
+TMS
+Text Label 10800 10050 0    50   ~ 0
 TCK
 Text Label 10800 9950 0    50   ~ 0
 TDO
