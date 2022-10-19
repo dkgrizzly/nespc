@@ -13,3 +13,6 @@ atf1508/output_files/*
 atf1508/nespc.qws
 hardware/NESPC.sch-bak
 hardware/NESPC.sch-bak
+*.gbr
+*.drl
+*.zip
