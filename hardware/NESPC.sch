@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "NES PC"
 Date "2022-10-14"
 Rev "1"
@@ -383,44 +383,44 @@ F 3 "~" H 14950 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14750 8300 14000 8300
+	14750 8600 14000 8600
 Wire Wire Line
-	14750 8400 14000 8400
-Text Label 14000 8300 0    50   ~ 0
+	14750 8500 14000 8500
+Text Label 14000 8600 0    50   ~ 0
 CPU_A2
-Text Label 14000 8400 0    50   ~ 0
+Text Label 14000 8500 0    50   ~ 0
 CPU_A3
 Wire Wire Line
-	16000 8100 15250 8100
-Wire Wire Line
-	16000 8200 15250 8200
-Wire Wire Line
-	16000 8300 15250 8300
-Wire Wire Line
-	16000 8400 15250 8400
-Wire Wire Line
-	16000 8500 15250 8500
-Wire Wire Line
-	16000 8600 15250 8600
+	16000 8800 15250 8800
 Wire Wire Line
 	16000 8700 15250 8700
 Wire Wire Line
-	16000 8800 15250 8800
-Text Label 16000 8800 2    50   ~ 0
-CPU_D7
-Text Label 16000 8700 2    50   ~ 0
-CPU_D6
-Text Label 16000 8600 2    50   ~ 0
-CPU_D5
-Text Label 16000 8500 2    50   ~ 0
-CPU_D4
-Text Label 16000 8400 2    50   ~ 0
-CPU_D3
-Text Label 16000 8300 2    50   ~ 0
-CPU_D2
-Text Label 16000 8200 2    50   ~ 0
-CPU_D1
+	16000 8600 15250 8600
+Wire Wire Line
+	16000 8500 15250 8500
+Wire Wire Line
+	16000 8400 15250 8400
+Wire Wire Line
+	16000 8300 15250 8300
+Wire Wire Line
+	16000 8200 15250 8200
+Wire Wire Line
+	16000 8100 15250 8100
 Text Label 16000 8100 2    50   ~ 0
+CPU_D7
+Text Label 16000 8200 2    50   ~ 0
+CPU_D6
+Text Label 16000 8300 2    50   ~ 0
+CPU_D5
+Text Label 16000 8400 2    50   ~ 0
+CPU_D4
+Text Label 16000 8500 2    50   ~ 0
+CPU_D3
+Text Label 16000 8600 2    50   ~ 0
+CPU_D2
+Text Label 16000 8700 2    50   ~ 0
+CPU_D1
+Text Label 16000 8800 2    50   ~ 0
 CPU_D0
 Wire Wire Line
 	14750 7100 14000 7100
@@ -482,21 +482,21 @@ Wire Wire Line
 	16000 7200 15250 7200
 Text Label 16000 7200 2    50   ~ 0
 GND
-Text Label 14000 8600 0    50   ~ 0
+Text Label 14000 8300 0    50   ~ 0
 CPU_A5
-Text Label 14000 8500 0    50   ~ 0
+Text Label 14000 8400 0    50   ~ 0
 CPU_A4
 Wire Wire Line
-	14750 8500 14000 8500
+	14750 8400 14000 8400
 Wire Wire Line
-	14750 8700 14000 8700
+	14750 8200 14000 8200
 Wire Wire Line
-	14750 8600 14000 8600
+	14750 8300 14000 8300
 Wire Wire Line
-	14750 8800 14000 8800
-Text Label 14000 8700 0    50   ~ 0
+	14750 8100 14000 8100
+Text Label 14000 8200 0    50   ~ 0
 CPU_A6
-Text Label 14000 8800 0    50   ~ 0
+Text Label 14000 8100 0    50   ~ 0
 CPU_A7
 Wire Wire Line
 	8250 3500 7500 3500
@@ -575,8 +575,8 @@ PPU_D5
 Text Label 9500 3800 2    50   ~ 0
 PPU_D4
 Wire Wire Line
-	7000 8350 6250 8350
-Text Label 6250 8350 0    50   ~ 0
+	8550 9450 9300 9450
+Text Label 9300 9450 2    50   ~ 0
 CIRAM_A10
 Wire Wire Line
 	8750 2400 9500 2400
@@ -873,12 +873,12 @@ Wire Wire Line
 Text Label 9500 2600 2    50   ~ 0
 PMU_A17
 Wire Wire Line
-	14750 8100 14000 8100
+	14750 8800 14000 8800
 Wire Wire Line
-	14750 8200 14000 8200
-Text Label 14000 8100 0    50   ~ 0
+	14750 8700 14000 8700
+Text Label 14000 8800 0    50   ~ 0
 CPU_A0
-Text Label 14000 8200 0    50   ~ 0
+Text Label 14000 8700 0    50   ~ 0
 CPU_A1
 Wire Wire Line
 	14750 8000 14000 8000
@@ -1139,92 +1139,92 @@ Wire Wire Line
 Text Label 9300 6450 2    50   ~ 0
 M2
 Wire Wire Line
-	6250 9350 7000 9350
-Text Label 6250 9350 0    50   ~ 0
+	6250 8350 7000 8350
+Text Label 6250 8350 0    50   ~ 0
 ~IOSEL0
 Wire Wire Line
-	6250 9450 7000 9450
-Text Label 6250 9450 0    50   ~ 0
+	6250 7850 7000 7850
+Text Label 6250 7850 0    50   ~ 0
 ~IOSEL1
 Wire Wire Line
-	9300 9250 8550 9250
-Text Label 9300 9250 2    50   ~ 0
+	6250 7450 7000 7450
+Text Label 6250 7450 0    50   ~ 0
 ~IOSEL2
 Wire Wire Line
-	6250 9250 7000 9250
-Text Label 6250 9250 0    50   ~ 0
+	6250 8250 7000 8250
+Text Label 6250 8250 0    50   ~ 0
 ~DEVSEL0
 Wire Wire Line
-	6250 9550 7000 9550
-Text Label 6250 9550 0    50   ~ 0
+	6250 7950 7000 7950
+Text Label 6250 7950 0    50   ~ 0
 ~DEVSEL1
 Wire Wire Line
-	9300 9450 8550 9450
-Text Label 9300 9450 2    50   ~ 0
+	6250 7550 7000 7550
+Text Label 6250 7550 0    50   ~ 0
 ~DEVSEL2
 Wire Wire Line
-	6250 8450 7000 8450
-Text Label 6250 8450 0    50   ~ 0
+	6250 6450 7000 6450
+Text Label 6250 6450 0    50   ~ 0
 ~FDCSEL
 Wire Wire Line
-	7000 7550 6250 7550
-Text Label 6250 7550 0    50   ~ 0
+	7000 9250 6250 9250
+Text Label 6250 9250 0    50   ~ 0
 PMU_A17
 Wire Wire Line
-	7000 7450 6250 7450
-Text Label 6250 7450 0    50   ~ 0
+	7000 9350 6250 9350
+Text Label 6250 9350 0    50   ~ 0
 PMU_A16
-Wire Wire Line
-	7000 7650 6250 7650
-Text Label 6250 7650 0    50   ~ 0
-PMU_A15
-Wire Wire Line
-	7000 7950 6250 7950
-Text Label 6250 7950 0    50   ~ 0
-PMU_A13
-Wire Wire Line
-	7000 7850 6250 7850
-Text Label 6250 7850 0    50   ~ 0
-PMU_A12
-Text Label 6250 7750 0    50   ~ 0
-PMU_A14
-Wire Wire Line
-	7000 7750 6250 7750
-Wire Wire Line
-	6250 8950 7000 8950
-Text Label 6250 8950 0    50   ~ 0
-PPU_A12
-Wire Wire Line
-	6250 8150 7000 8150
-Text Label 6250 8150 0    50   ~ 0
-~RAM_CE
-Wire Wire Line
-	6250 6750 7000 6750
-Text Label 6250 6750 0    50   ~ 0
-~ROM_CE
 Wire Wire Line
 	7000 9150 6250 9150
 Text Label 6250 9150 0    50   ~ 0
-~CHR_RAM_CE
+PMU_A15
+Wire Wire Line
+	7000 8850 6250 8850
+Text Label 6250 8850 0    50   ~ 0
+PMU_A13
+Wire Wire Line
+	7000 8950 6250 8950
+Text Label 6250 8950 0    50   ~ 0
+PMU_A12
 Text Label 6250 9050 0    50   ~ 0
+PMU_A14
+Wire Wire Line
+	7000 9050 6250 9050
+Wire Wire Line
+	9300 9550 8550 9550
+Text Label 9300 9550 2    50   ~ 0
+PPU_A12
+Wire Wire Line
+	6250 8450 7000 8450
+Text Label 6250 8450 0    50   ~ 0
+~RAM_CE
+Wire Wire Line
+	6250 8550 7000 8550
+Text Label 6250 8550 0    50   ~ 0
+~ROM_CE
+Wire Wire Line
+	7000 8750 6250 8750
+Text Label 6250 8750 0    50   ~ 0
+~CHR_RAM_CE
+Text Label 6250 8650 0    50   ~ 0
 ~CHR_ROM_CE
 Wire Wire Line
-	6250 9050 7000 9050
+	6250 8650 7000 8650
 Wire Wire Line
-	7000 6550 6250 6550
-Text Label 6250 6550 0    50   ~ 0
+	7000 8150 6250 8150
+Text Label 6250 8150 0    50   ~ 0
 ~PRG_OE
 Wire Wire Line
-	8550 9150 9300 9150
-Text Label 9300 9150 2    50   ~ 0
+	7000 7150 6250 7150
+Text Label 6250 7150 0    50   ~ 0
 ~PRG_WE
 Wire Wire Line
-	6250 8650 7000 8650
-Text Label 6250 8650 0    50   ~ 0
+	9300 9350 8550 9350
+Text Label 9300 9350 2    50   ~ 0
 CIRAM_~CE
 Wire Wire Line
-	7000 8550 6250 8550
-Text Label 6250 8550 0    50   ~ 0
+	8550 6550 9300 6550
+Text Label 9300 6550 2    50   ~ 0
 FDC_RST
 Wire Wire Line
 	9300 7350 8550 7350
@@ -1267,68 +1267,60 @@ CPU_D4
 Text Label 9300 8450 2    50   ~ 0
 CPU_D3
 Wire Wire Line
-	8550 6550 9300 6550
-Wire Wire Line
-	7000 6650 6250 6650
-Wire Wire Line
-	7000 6450 6250 6450
-Text Label 9300 6550 2    50   ~ 0
-CPU_A9
-Text Label 6250 6650 0    50   ~ 0
-CPU_A10
-Text Label 6250 6450 0    50   ~ 0
-CPU_A11
-Wire Wire Line
-	8550 6650 9300 6650
-Text Label 9300 6650 2    50   ~ 0
-CPU_A8
-Wire Wire Line
-	6250 8250 7000 8250
-Text Label 6250 8250 0    50   ~ 0
-~ROMSEL
-Text Label 6250 7050 0    50   ~ 0
-MMU_A12
-Wire Wire Line
-	7000 7050 6250 7050
-Text Label 9300 6750 2    50   ~ 0
-MMU_A13
+	8550 6850 9300 6850
 Wire Wire Line
 	8550 6750 9300 6750
+Wire Wire Line
+	8550 6650 9300 6650
 Text Label 9300 6850 2    50   ~ 0
-MMU_A14
-Wire Wire Line
-	8550 6850 9300 6850
-Text Label 6250 7150 0    50   ~ 0
-MMU_A15
-Wire Wire Line
-	7000 7150 6250 7150
-Text Label 6250 6950 0    50   ~ 0
-MMU_A16
-Wire Wire Line
-	7000 6950 6250 6950
-Text Label 9300 6950 2    50   ~ 0
-MMU_A17
+CPU_A9
+Text Label 9300 6750 2    50   ~ 0
+CPU_A10
+Text Label 9300 6650 2    50   ~ 0
+CPU_A11
 Wire Wire Line
 	8550 6950 9300 6950
-Text Label 6250 6850 0    50   ~ 0
-MMU_A18
+Text Label 9300 6950 2    50   ~ 0
+CPU_A8
 Wire Wire Line
-	7000 6850 6250 6850
+	9300 9150 8550 9150
+Text Label 9300 9150 2    50   ~ 0
+~ROMSEL
+Text Label 6250 6950 0    50   ~ 0
+MMU_A12
+Wire Wire Line
+	7000 6950 6250 6950
+Text Label 6250 7350 0    50   ~ 0
+MMU_A13
 Wire Wire Line
 	7000 7350 6250 7350
-Text Label 6250 7350 0    50   ~ 0
+Text Label 6250 6750 0    50   ~ 0
+MMU_A14
+Wire Wire Line
+	7000 6750 6250 6750
+Text Label 6250 6850 0    50   ~ 0
+MMU_A15
+Wire Wire Line
+	7000 6850 6250 6850
+Text Label 6250 7050 0    50   ~ 0
+MMU_A17
+Wire Wire Line
+	7000 7050 6250 7050
+Wire Wire Line
+	7000 9450 6250 9450
+Text Label 6250 9450 0    50   ~ 0
 PMU_A18
 Wire Wire Line
-	6250 8850 7000 8850
-Text Label 6250 8850 0    50   ~ 0
+	6250 9550 7000 9550
+Text Label 6250 9550 0    50   ~ 0
 PPU_A13
 Wire Wire Line
 	9300 6350 8550 6350
 Text Label 9300 6350 2    50   ~ 0
 SYSCLK
 Wire Wire Line
-	7000 8750 6250 8750
-Text Label 6250 8750 0    50   ~ 0
+	8550 9250 9300 9250
+Text Label 9300 9250 2    50   ~ 0
 CPU_R~W
 Wire Wire Line
 	9300 7250 8550 7250
@@ -1535,14 +1527,14 @@ Wire Wire Line
 	1450 8300 2200 8300
 Connection ~ 2200 8300
 Connection ~ 2200 7400
-Text Label 9300 9350 2    50   ~ 0
+Text Label 6250 7650 0    50   ~ 0
 ~DEVSEL3
 Wire Wire Line
-	9300 9350 8550 9350
-Text Label 9300 9550 2    50   ~ 0
+	6250 7650 7000 7650
+Text Label 6250 7750 0    50   ~ 0
 ~IOSEL3
 Wire Wire Line
-	9300 9550 8550 9550
+	6250 7750 7000 7750
 Wire Wire Line
 	8550 8950 9300 8950
 Wire Wire Line
@@ -1575,12 +1567,6 @@ Text Label 9300 7650 2    50   ~ 0
 CPU_A6
 Text Label 9300 7450 2    50   ~ 0
 CPU_A7
-$Sheet
-S 14500 5000 1150 400 
-U 75E32237
-F0 "Floppy Disk Controller" 50
-F1 "FDC.sch" 50
-$EndSheet
 Wire Wire Line
 	14000 7400 14750 7400
 Text Label 14000 7400 0    50   ~ 0
@@ -1593,4 +1579,24 @@ Wire Wire Line
 	1450 6050 2650 6050
 Wire Wire Line
 	1450 6950 2650 6950
+Wire Wire Line
+	7000 6650 6250 6650
+Text Label 6250 6650 0    50   ~ 0
+MMU_A16
+Wire Wire Line
+	7000 6550 6250 6550
+Text Label 6250 6550 0    50   ~ 0
+MMU_A18
+$Sheet
+S 14150 4800 1800 150 
+U 75E32237
+F0 "Floppy Disk Controller 37C78" 50
+F1 "FDC37C78.sch" 50
+$EndSheet
+$Sheet
+S 14150 5200 1800 150 
+U 649831AA
+F0 "Floppy Disk Controller 82077" 50
+F1 "FDC82077.sch" 50
+$EndSheet
 $EndSCHEMATC
