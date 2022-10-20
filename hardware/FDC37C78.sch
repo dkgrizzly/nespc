@@ -71,7 +71,7 @@ Text Label 1900 2550 0    50   ~ 0
 Wire Wire Line
 	2650 2650 1900 2650
 Text Label 1900 2650 0    50   ~ 0
-~IRQ
+IRQ
 Wire Wire Line
 	2650 2750 1900 2750
 Wire Wire Line
@@ -95,7 +95,7 @@ Wire Wire Line
 Text Label 1900 3150 0    50   ~ 0
 GND
 Text Label 1900 2750 0    50   ~ 0
-FDC_TC
+GND
 Wire Wire Line
 	5850 2650 6600 2650
 Text Label 6600 2650 2    50   ~ 0
@@ -131,11 +131,11 @@ FLP_DENSEL
 Wire Wire Line
 	3150 3750 3900 3750
 Text Label 3900 3750 2    50   ~ 0
-FLP_MEDIA_ID0
+GND
 Wire Wire Line
 	3150 3650 3900 3650
 Text Label 3900 3650 2    50   ~ 0
-FLP_MEDIA_ID1
+GND
 Wire Wire Line
 	3150 3550 3900 3550
 Text Label 3900 3550 2    50   ~ 0
@@ -573,26 +573,75 @@ CLK24
 $Comp
 L Device:CP1 C?
 U 1 1 76CC0D72
-P 2950 5400
+P 2100 4850
 AR Path="/76CC0D72" Ref="C?"  Part="1" 
 AR Path="/75E32237/76CC0D72" Ref="C1"  Part="1" 
-F 0 "C1" H 3065 5446 50  0000 L CNN
-F 1 "0.1uF" H 3065 5355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2950 5400 50  0001 C CNN
-F 3 "~" H 2950 5400 50  0001 C CNN
-	1    2950 5400
+F 0 "C1" H 2215 4896 50  0000 L CNN
+F 1 "0.1uF" H 2215 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2100 4850 50  0001 C CNN
+F 3 "~" H 2100 4850 50  0001 C CNN
+	1    2100 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 5250 2950 4950
+	2100 4700 2100 4400
 Wire Wire Line
-	2950 5850 2950 5550
+	2100 5300 2100 5000
 Wire Wire Line
-	2200 4950 2950 4950
-Text Label 2200 4950 0    50   ~ 0
+	1350 4400 2100 4400
+Text Label 1350 4400 0    50   ~ 0
 +5V
-Text Label 2200 5850 0    50   ~ 0
+Text Label 1350 5300 0    50   ~ 0
 GND
 Wire Wire Line
-	2200 5850 2950 5850
+	1350 5300 2100 5300
+Wire Wire Line
+	3100 6500 2350 6500
+Text Label 2350 6500 0    50   ~ 0
+IRQ
+$Comp
+L Device:Q_NPN_CBE Q1
+U 1 1 64EAF839
+P 3900 6500
+F 0 "Q1" H 4090 6546 50  0000 L CNN
+F 1 "2N2222" H 4090 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92S_Wide" H 4100 6600 50  0001 C CNN
+F 3 "~" H 3900 6500 50  0001 C CNN
+	1    3900 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 64EB0EA6
+P 3250 6500
+F 0 "R1" V 3043 6500 50  0000 C CNN
+F 1 "1K" V 3134 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3180 6500 50  0001 C CNN
+F 3 "~" H 3250 6500 50  0001 C CNN
+	1    3250 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 64EB16C8
+P 4000 5900
+F 0 "R2" H 3930 5854 50  0000 R CNN
+F 1 "1K" H 3930 5945 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 5900 50  0001 C CNN
+F 3 "~" H 4000 5900 50  0001 C CNN
+	1    4000 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4000 5750 4000 5000
+Text Label 4000 5000 3    50   ~ 0
+~IRQ
+Wire Wire Line
+	4000 6300 4000 6050
+Wire Wire Line
+	3400 6500 3700 6500
+Wire Wire Line
+	4000 7450 4000 6700
+Text Label 4000 7450 1    50   ~ 0
+GND
 $EndSCHEMATC

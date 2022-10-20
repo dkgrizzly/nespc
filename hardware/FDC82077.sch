@@ -71,9 +71,9 @@ Wire Wire Line
 Text Label 3600 3250 2    50   ~ 0
 +5V
 Wire Wire Line
-	1450 3250 700  3250
-Text Label 700  3250 0    50   ~ 0
-~IRQ
+	2350 3250 1600 3250
+Text Label 1600 3250 0    50   ~ 0
+IRQ
 Wire Wire Line
 	2350 3450 1600 3450
 Wire Wire Line
@@ -736,4 +736,59 @@ Wire Wire Line
 Wire Wire Line
 	3600 5050 3100 5050
 Connection ~ 3100 5050
+Wire Wire Line
+	5600 6600 4850 6600
+Text Label 4850 6600 0    50   ~ 0
+IRQ
+$Comp
+L Device:Q_NPN_CBE Q?
+U 1 1 64EE81B1
+P 6400 6600
+AR Path="/75E32237/64EE81B1" Ref="Q?"  Part="1" 
+AR Path="/649831AA/64EE81B1" Ref="Q2"  Part="1" 
+F 0 "Q2" H 6590 6646 50  0000 L CNN
+F 1 "2N2222" H 6590 6555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92S_Wide" H 6600 6700 50  0001 C CNN
+F 3 "~" H 6400 6600 50  0001 C CNN
+	1    6400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64EE81B7
+P 5750 6600
+AR Path="/75E32237/64EE81B7" Ref="R?"  Part="1" 
+AR Path="/649831AA/64EE81B7" Ref="R3"  Part="1" 
+F 0 "R3" V 5543 6600 50  0000 C CNN
+F 1 "1K" V 5634 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5680 6600 50  0001 C CNN
+F 3 "~" H 5750 6600 50  0001 C CNN
+	1    5750 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64EE81BD
+P 6500 6000
+AR Path="/75E32237/64EE81BD" Ref="R?"  Part="1" 
+AR Path="/649831AA/64EE81BD" Ref="R4"  Part="1" 
+F 0 "R4" H 6430 5954 50  0000 R CNN
+F 1 "1K" H 6430 6045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6430 6000 50  0001 C CNN
+F 3 "~" H 6500 6000 50  0001 C CNN
+	1    6500 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 5850 6500 5100
+Text Label 6500 5100 3    50   ~ 0
+~IRQ
+Wire Wire Line
+	6500 6400 6500 6150
+Wire Wire Line
+	5900 6600 6200 6600
+Wire Wire Line
+	6500 7550 6500 6800
+Text Label 6500 7550 1    50   ~ 0
+GND
 $EndSCHEMATC
