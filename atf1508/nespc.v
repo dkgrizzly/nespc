@@ -122,8 +122,8 @@ wire PAGEFC_SEL = !nROMSEL && CPU_A[14] &&  CPU_A[13] &&  CPU_A[12]  &&  CPU_A[1
 
 
 assign MMU_A[6:0]  = PAGEFC_SEL ? 7'h7f : (
-							PAGE50_SEL ? PAGE50_WIN[6:0] :
-							{ 3'd7, !nROMSEL, CPU_A[14:12] } );
+                     PAGE50_SEL ? PAGE50_WIN[6:0] :
+                     { 3'd7, !nROMSEL, CPU_A[14:12] } );
 
 assign PRG_ROM_nCE = !((PAGEFC_SEL && !PAGEFC_RAM) ||
                        (PAGE60_SEL && !PAGE60_RAM) ||
@@ -132,7 +132,7 @@ assign PRG_ROM_nCE = !((PAGEFC_SEL && !PAGEFC_RAM) ||
 assign PRG_RAM_nCE = !((PAGEFC_SEL && PAGEFC_RAM) ||
                        (PAGE60_SEL && PAGE60_RAM) ||
                        (PAGE50_SEL && PAGE50_WIN[7]) || 
-							   PAGE00_SEL);
+                        PAGE00_SEL);
 
 
 
